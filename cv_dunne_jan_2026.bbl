@@ -221,7 +221,7 @@
       \field{pages}{e102227}
       \range{pages}{-1}
       \verb{doi}
-      \verb 10.1002/alz.102227
+      \verb 10.1002/alz70859_102227
       \endverb
     \endentry
     \entry{merlino2025health}{article}{}
@@ -349,7 +349,7 @@
       \field{pages}{459\bibrangedash 468}
       \range{pages}{10}
       \verb{doi}
-      \verb 10.1097/MNH.0000000000001043
+      \verb 10.1097/MNH.0000000000001117
       \endverb
     \endentry
     \entry{qin2025ppie}{article}{}
@@ -427,7 +427,7 @@
       \field{pages}{2025\bibrangedash 08}
       \range{pages}{4}
       \verb{doi}
-      \verb 10.1101/2025.01.08.25320302
+      \verb 10.1101/2025.08.18.25333896
       \endverb
     \endentry
     \entry{vanovaeffectiveness}{article}{}
@@ -666,6 +666,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The British Journal of Psychiatry}
+      \field{note}{Editorial}
       \field{number}{6}
       \field{title}{Shifting paradigms in dementia care: navigating new therapies and prevention strategies}
       \field{volume}{224}
@@ -674,7 +675,7 @@
       \field{pages}{187\bibrangedash 188}
       \range{pages}{2}
       \verb{doi}
-      \verb 10.1192/bjp.2024.55
+      \verb 10.1192/bjp.2024.75
       \endverb
     \endentry
     \entry{merlino20241490}{inproceedings}{}
@@ -948,7 +949,7 @@
       \field{pages}{669\bibrangedash 669}
       \range{pages}{1}
       \verb{doi}
-      \verb 10.1136/jnnp-2023-331180
+      \verb 10.1136/jnnp-2023-332045
       \endverb
     \endentry
     \entry{taylor2023uncoupling}{article}{}

@@ -37,6 +37,16 @@
 \usepackage[sorting=ydnt,defernumbers=true,backend=biber,maxbibnames=99,maxcitenames=99]{biblatex}
 \addbibresource{my_publications.bib}
 
+% Style DOIs in burgundy color to match headings
+\DeclareFieldFormat{doi}{%
+  \textcolor{color1}{%
+    \mkbibacro{DOI}\addcolon\space
+    \ifhyperref
+      {\href{https://doi.org/#1}{\nolinkurl{#1}}}
+      {\nolinkurl{#1}}%
+  }%
+}
+
 % Custom command to extract fields from bibliography
 \usepackage{xparse}
 
