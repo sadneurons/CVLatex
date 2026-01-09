@@ -1075,6 +1075,9 @@
       \true{nocite}
       \field{pages}{S113\bibrangedash S113}
       \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1192/bjo.2022.340
+      \endverb
     \endentry
     \entry{dunne2021mild}{article}{}
       \true{moreauthor}
@@ -1188,6 +1191,9 @@
       \true{nocite}
       \field{pages}{433}
       \range{pages}{1}
+      \verb{doi}
+      \verb 10.1017/9781911623465.016
+      \endverb
     \endentry
     \entry{husain2020stigma}{article}{}
       \true{moreauthor}
@@ -1460,11 +1466,14 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{ECT Handbook 4th Edition}
-      \field{title}{Treatment Suites and Practical Aspects of ECT}
+      \field{title}{Practical Aspects of ECT}
       \field{year}{2019}
       \true{nocite}
       \field{pages}{183\bibrangedash 201}
       \range{pages}{19}
+      \verb{doi}
+      \verb 10.1017/9781911623175.022
+      \endverb
     \endentry
     \entry{leroi2019roadmap}{article}{}
       \true{moreauthor}
@@ -1542,7 +1551,7 @@
       \field{pages}{939\bibrangedash 952}
       \range{pages}{14}
       \verb{doi}
-      \verb 10.1016/j.trci.2019.10.005
+      \verb 10.1016/j.trci.2019.11.005
       \endverb
     \endentry
     \entry{ryan2018bdnf}{article}{}
@@ -1865,6 +1874,9 @@
       \field{title}{Public Events Questionnaire}
       \field{year}{2014}
       \true{nocite}
+      \verb{doi}
+      \verb 10.1037/t49421-000
+      \endverb
     \endentry
     \entry{dunne2013ect}{incollection}{}
       \name{author}{2}{}{%
@@ -1897,6 +1909,12 @@
       \true{nocite}
       \field{pages}{28\bibrangedash 44}
       \range{pages}{17}
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/books/abs/ect-handbook/ect-prescribing-and-practice/A382AB0B5720599178789A121F4F0B92#chapter
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/books/abs/ect-handbook/ect-prescribing-and-practice/A382AB0B5720599178789A121F4F0B92#chapter
+      \endverb
     \endentry
     \entry{fear2013treatment}{incollection}{}
       \name{author}{3}{}{%
@@ -1935,6 +1953,12 @@
       \true{nocite}
       \field{pages}{140}
       \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/books/abs/ect-handbook/use-of-ect-in-the-treatment-of-schizophrenia-and-catatonia/97159CC49722B26E88B6FCD1E31A6437
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/books/abs/ect-handbook/use-of-ect-in-the-treatment-of-schizophrenia-and-catatonia/97159CC49722B26E88B6FCD1E31A6437
+      \endverb
     \endentry
     \entry{dunne2012predictors}{inproceedings}{}
       \name{author}{4}{}{%
@@ -2014,6 +2038,9 @@
       \true{nocite}
       \field{pages}{617\bibrangedash 62711}
       \range{pages}{62095}
+      \verb{doi}
+      \verb 10.1016/B978-0-7020-3397-1.00040-9
+      \endverb
     \endentry
     \entry{dunne2012physical}{article}{}
       \name{author}{2}{}{%
@@ -2172,56 +2199,6 @@
       \field{pages}{84}
       \range{pages}{1}
     \endentry
-    \entry{hughes2011inflammatory}{inproceedings}{}
-      \name{author}{5}{}{%
-        {{hash=37d73f9edb48acca8777c8f5e1a68552}{%
-           family={Hughes},
-           familyi={H\bibinitperiod},
-           given={Martina\bibnamedelima M},
-           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
-           family={Dunne},
-           familyi={D\bibinitperiod},
-           given={Ross},
-           giveni={R\bibinitperiod}}}%
-        {{hash=53d15ea221f3a608f324855fe4425ed2}{%
-           family={Noone},
-           familyi={N\bibinitperiod},
-           given={Martha},
-           giveni={M\bibinitperiod}}}%
-        {{hash=cf555ad405a89ab4cdeebf80368900d9}{%
-           family={McLoughlin},
-           familyi={M\bibinitperiod},
-           given={Declan\bibnamedelima M},
-           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=6cb26c18ed40c8b36af56cb4af9f8bda}{%
-           family={Connor},
-           familyi={C\bibinitperiod},
-           given={Thomas\bibnamedelima J},
-           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {Springer London Ltd 236 Grays Inn Rd, 6th Floor, London WC1X 8HL, England}%
-      }
-      \strng{namehash}{9e935f13f02362b8150a5a738771b4da}
-      \strng{fullhash}{9e935f13f02362b8150a5a738771b4da}
-      \strng{bibnamehash}{9e935f13f02362b8150a5a738771b4da}
-      \strng{authorbibnamehash}{9e935f13f02362b8150a5a738771b4da}
-      \strng{authornamehash}{9e935f13f02362b8150a5a738771b4da}
-      \strng{authorfullhash}{9e935f13f02362b8150a5a738771b4da}
-      \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Irish Journal of Medical Science}
-      \field{title}{Inflammatory gene expression profile in treatment resistant depression}
-      \field{volume}{180}
-      \field{year}{2011}
-      \true{nocite}
-      \field{pages}{55\bibrangedash 55}
-      \range{pages}{1}
-    \endentry
     \entry{kolshus2011antidepressant}{article}{}
       \name{author}{3}{}{%
         {{hash=0870eb88fdc5fcdec90a95ca324fac95}{%
@@ -2262,6 +2239,9 @@
       \true{nocite}
       \field{pages}{i\bibrangedash ix}
       \range{pages}{9}
+      \verb{doi}
+      \verb 10.1017/S0790966700011800
+      \endverb
     \endentry
     \entry{hughes2010inflammatory}{inproceedings}{}
       \name{author}{5}{}{%
@@ -2300,7 +2280,6 @@
       \strng{authorbibnamehash}{3e92be6fd12eebc424edb333577a70cb}
       \strng{authornamehash}{3e92be6fd12eebc424edb333577a70cb}
       \strng{authorfullhash}{3e92be6fd12eebc424edb333577a70cb}
-      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
