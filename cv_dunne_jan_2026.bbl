@@ -557,7 +557,7 @@
       \verb 10.2139/ssrn.5527836
       \endverb
     \endentry
-    \entry{kellett2024uptake}{article}{}
+    \entry{kellett2024uptake}{inproceedings}{}
       \name{author}{8}{}{%
         {{hash=b85cf27d2662c8fbfb2271fb45e59f52}{%
            family={Kellett},
@@ -621,7 +621,7 @@
       \field{pages}{100116}
       \range{pages}{1}
       \verb{doi}
-      \verb 10.1016/j.cccb.2024.100116
+      \verb 10.1016/j.cccb.2022.100116
       \endverb
     \endentry
     \entry{koychev2024shifting}{article}{}
