@@ -1,0 +1,72 @@
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.gz(busy)
+
+# LaTeX intermediate files
+*.dvi
+*.ps
+
+# Index and glossary files
+*.idx
+*.ind
+*.ilg
+*.glo
+*.gls
+*.glg
+*.acn
+*.acr
+*.alg
+
+# Bibliography files (keep source .bib files)
+*-blx.bib
+
+# make4ht/tex4ht output files
+*.4ct
+*.4tc
+*.idv
+*.lg
+*.tmp
+*.xref
+*.html
+*.css
+*_html.tex
+
+# Keep only the final PDF (ignore intermediate PDFs)
+# Uncomment if you don't want PDFs in repo at all
+# *.pdf
+
+# Build directories
+build/
+public/
+_site/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/*
+!.vscode/settings.json
+
+# Backup files
+*.bak
+*~
