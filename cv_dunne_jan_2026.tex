@@ -1,0 +1,308 @@
+% !TEX program = xelatex
+% Classic Academic CV - Option 1: Serif Font (Professional)
+% Compile with xelatex -> biber -> xelatex -> xelatex
+
+\documentclass[11pt,a4paper,roman]{moderncv}
+
+% ModernCV themes
+\moderncvstyle{classic}  
+\moderncvcolor{burgundy}     
+
+% Font package for Bembo
+\usepackage{fontspec}
+\setmainfont{Bembo}
+
+% Adjust page margins - 0.5 inch margins
+\usepackage[margin=0.5in]{geometry}
+\setlength{\hintscolumnwidth}{2.8cm}  
+
+% For tables
+\usepackage{longtable}
+\usepackage{array}
+
+% Bibliography
+\usepackage[sorting=ydnt,defernumbers=true,backend=biber,maxbibnames=99,maxcitenames=99]{biblatex}
+\addbibresource{my_publications.bib}
+\addbibresource{my_posters_abstracts.bib}
+
+% Custom command to extract fields from bibliography
+\usepackage{xparse}
+
+% Bold surname in citations
+\usepackage{xstring}
+
+\DeclareNameFormat{default}{%
+  \ifstrequal{\namepartfamily}{Dunne}
+    {\textbf{\namepartfamily}\addcomma\addspace\namepartgiveni}
+    {\namepartfamily\addcomma\addspace\namepartgiveni}%
+}
+
+% Prevent sections from breaking across pages
+\usepackage{needspace}
+\let\oldsection\section
+\renewcommand{\section}[1]{\needspace{4\baselineskip}\oldsection{#1}}
+
+% Personal data
+\photo[1.2in][0.0pt]{bwphoto.png}
+\name{Dr. Ross A.}{Dunne}
+\title{Curriculum Vitae \\ \small{\today}}
+\address{brainHealth Manchester}{70 Daisybank Road, Victoria Park}{Manchester M14 5QN} 
+\phone[mobile]{+44~(0)~7407~715~609}
+\email{ross.dunne@gmmh.nhs.uk}
+\extrainfo{GMC No.: 7250974 \\ Entry to Specialist Register: 19/8/15 }
+\social[orcid]{0000-0003-2046-6193}
+\social[github]{sadneurons} 
+\social[linkedin]{ross-dunne-gmdrc}
+\begin{document}
+
+\makecvtitle
+
+\section{Summary}
+\cvline{}{Consultant in Old Age Psychiatry and Clinical Director of the Greater Manchester Dementia Research Centre, with expertise in early diagnosis of neurodegenerative disease, biomarkers, and clinical trial delivery. Established the UK's first psychiatrist-led CSF biomarker service in 2022—initially single-handed, now scaled into the Manchester Brain Health Centre, underpinned by philanthropic and third sector partnerships and £35 million in industry investment for discovery and clinical science using the cohort as rolling research infrastructure. Principal or Co-Investigator on 30+ clinical trials spanning Phase I-III, with total collaborative research portfolio exceeding £15 million. Current work focuses on platform trials for disease-modifying therapies, molecular diagnostics, and vascular contributions to cognitive impairment.}
+
+\section{Education}
+\cventry{2010}{PgDipStat}{Trinity College Dublin}{}{}{Postgraduate Diploma in Statistics}
+\cventry{2010}{MRCPsych}{Royal College of Psychiatrists}{}{}{Membership of the Royal College of Psychiatrists}
+\cventry{2005}{MB BCH BAO}{Trinity College Dublin}{}{}{Medical Degree (Date of degree conferral: 17/6/2005)}
+
+\section{Professional Appointments}
+\cventry{2015--Present}{Consultant in Old Age Psychiatry}{Greater Manchester Mental Health Foundation Trust}{Manchester}{}{}
+
+\section{Previous Clinical Appointments}
+\cventry{2012--2015}{NIHR ACF in Dementia / ST in Old Age Psychiatry}{Cambridge \& Peterborough Foundation Trust}{Cambridge}{}{Academic Supervisor: Prof. John O'Brien}
+\cventry{2008--2012}{Research Fellow in Psychiatry}{St. Patrick's University Hospital}{Dublin}{}{Supervisor: Prof. Declan McLoughlin}
+\cventry{2006--2008}{SHO in Psychiatry}{St. Patrick's University Hospital}{Dublin}{}{Supervisor: Prof. Anthony Clare}
+\cventry{2005--2006}{Intern in Medicine and Surgery}{St. James's University Hospital}{Dublin}{}{Supervisor: Prof. John Reynolds}
+
+\section{Academic and Leadership Appointments}
+\cventry{2024--Present}{NIHR-RDN NW England Dementia Clinical Lead}{}{}{}{}
+\cventry{2021--Present}{Board Member and Dementia Theme Co-Lead}{Geoffrey Jefferson Brain Research Centre}{}{}{}
+\cventry{2020--Present}{Theme Lead for Dementia}{Health Innovation Manchester (Manchester AHSN)}{}{}{}
+\cventry{2019--Present}{Clinical Director}{Greater Manchester Dementia Research Centre}{}{}{Leading the largest and most active dementia research centre in the Northwest with 7 staff and 9 ongoing studies. Managing commercial and grant-funded portfolio across Phase I-III trials. Established key partnerships with Salford Royal (NCA) and University of Manchester. Member of the national Dementia Trials Network (led by Prof. Mummery). \url{www.gmdrc.co.uk}}
+\cventry{2019--2024}{NIHR-CRN Greater Manchester Dementia Clinical Lead}{}{}{}{}
+\cventry{2019--2024}{Honorary Senior Lecturer}{University of Manchester}{}{}{}
+\cventry{2019--2022}{Strategic Clinical Network Advisor (Dementia)}{GM/Cheshire}{}{}{}
+\cventry{2012--2015}{NIHR Academic Clinical Fellowship}{Cambridge \& Peterborough Foundation Trust}{}{}{Educational Supervisor: Dr Deborah Girling; Academic Supervisor: Prof. John O'Brien. Approximately 20\% research time during higher clinical training in Later Life Psychiatry. Recruited to industry and NIHR funded studies.}
+\cventry{2010--2012}{HRB Research Training Fellowship}{St. Patrick's University Hospital}{Dublin}{}{Clinical Research Fellow on the EFFECT-Dep study. Randomised controlled double blind study of right unilateral versus bilateral ECT in severe depression under PI Prof. Declan McLoughlin.}
+
+\section{Teaching and Training}
+\subsection{Undergraduate Teaching}
+\cvline{}{Undergraduate tutor in psychiatry at Trinity College Dublin. Regular small group teaching for Cambridge University students during training. Current online seminars with University of Manchester students.}
+
+\subsection{Postgraduate Teaching}
+\cvline{}{Faculty member for the Neurology Academy, Sheffield. Teaching on Parkinson's Disease neuropsychiatry, Palliative and Dementia Masterclasses, and Mild Cognitive Impairment/Brain Health webinar series. Registered trainer and educational supervisor of higher trainees in old age psychiatry.}
+
+\section{Clinical Trials Experience (last 5 years)}
+
+\cvline{Summary}{Principal or Co-Investigator on 30+ clinical trials across Alzheimer's disease, neuropsychiatric disorders, biomarkers, and platform trials. Extensive experience with industry-sponsored Phase II/III trials and NIHR-funded studies.}
+
+\subsection{Alzheimer's Disease Monoclonal Antibodies (n=9)}
+\cventry{2024--}{Gabriella}{Roche}{PI}{Brain-shuttle Gantenerumab}{}
+\cventry{2022--2023}{ENVISION}{Biogen}{PI}{Phase IV Aducanumab}{}
+\cventry{2020--2023}{Invoke}{Alector}{PI}{AL002 mAb}{}
+\cventry{2020--2022}{EMBARK}{Biogen}{PI}{Aducanumab}{}
+% \cventry{2018--2019}{ENGAGE}{Biogen}{PI}{Aducanumab}{}
+% \cventry{2018--2019}{EVOLVE}{Biogen}{PI}{Aducanumab}{}
+% \cventry{2017--2019}{CREAD 1/2/OLE}{Hoffmann La Roche}{PI}{Crenezumab}{}
+% \cventry{2018--2019}{Generations 1 \& 2}{Novartis}{PI}{CAD106 CNP520}{}
+% \cventry{2013--2014}{Scarlet RoAD}{Hoffmann La Roche}{Sub-I}{Gantenerumab}{}
+
+\subsection{Other Alzheimer's Disease Therapeutics (n=6)}
+\cventry{2022--}{CELIA}{Biogen}{CI}{Tau anti-sense oligonucleotide}{}
+\cventry{2021--2023}{Evoke/Evoke+}{Novo Nordisk}{PI}{Semaglutide for AD/VaD}{}
+\cventry{2017--2020}{Mission AD}{EISAI}{PI}{E2609}{}
+% \cventry{2017--2018}{Steadfast}{vTv Therapeutics}{Co-I}{Azeliragon}{}
+% \cventry{2014--2018}{MADE}{NIHR}{Sub-I}{Minocycline}{}
+
+\subsection{Neuropsychiatric Symptoms \& Depression (n=5)}
+\cventry{2023--}{ANTLER75+}{NIHR}{PI}{Antidepressant withdrawal in over 75s}{}
+\cventry{2022--}{CICERO}{NIHR}{PI}{Cognitive intervention for Long-Covid}{}
+\cventry{2022--}{Aspect}{Avanir}{PI}{Dextrometorphan/Quinidine for agitation}{}
+% \cventry{2018--2020}{SYMBAD}{NIHR}{PI}{Mirtazapine/Carmabamazepine for agitation}{}
+% \cventry{2018--2020}{Delphia}{EISAI}{PI}{E2027 for LBD}{}
+% \cventry{2018--2019}{Serene}{Acadia}{Co-I}{Pimavanserin for AD}{}
+% \cventry{2014}{ATLAS}{NIHR}{Sub-I}{Amisulpride for late onset schizophrenia}{}
+
+\subsection{Biomarker, Diagnostic \& Cohort Studies (n=8)}
+\cventry{2025--}{READOUT}{NIHR/ARUK/AS}{Co-I}{Real world dementia outcomes}{}
+\cventry{2023--}{AllinOne}{Alzheimer's Society}{Co-I}{Blood biomarkers and ASL for AD}{}
+\cventry{2023--}{Hear-App}{HInM}{Co-I}{Pure tone audiometry feasibility}{}
+\cventry{2022--}{ABHAD}{Hearing Health BRC}{Co-I}{Auditory biomarkers in AD}{}
+\cventry{2020--2022}{Cognetivity}{Cognetivity Ltd}{PI}{Novel cognitive testing}{}
+% \cventry{2019--2020}{EPAD}{Industry/Edinburgh}{Co-I}{LCS and trial platform}{}
+% \cventry{2019--2020}{DLB Genetics}{NIHR/Cardiff}{PI}{Cohort study}{}
+% \cventry{2017--2020}{AD Genetics}{NIHR/Cardiff}{PI}{Cohort study}{}
+
+\subsection{Platform Trials \& Innovation (n=3)}
+\cventry{2025--}{AD-SMART}{MRC Trials Accelerator}{Co-I}{Platform trial in AD}{}
+\cventry{2020--}{StrataStem II}{StrataStem Ltd}{CI}{iPSC platform for molecular libraries}{}
+
+\section{Grants and Funding}
+\cventry{2026--2031}{Treating auditory impairment to preserve cognition in people with mild cognitive impairment}{NIHR PGfAR}{£3.4 million}{Co-Applicant}{}
+\cventry{2026--2028}{AD-SMART}{ARUK}{£2.5 million}{Co-Investigator, "Outcomes WP" lead}{}
+\cventry{2025--2027}{Manchester Brain Health Centre}{AlzSoc}{£1.5 million}{Clinical Director}{}
+\cventry{2025--2028}{Dementia Trials Network Manchester Site}{MRC/DRI}{£500,000}{PI}{}
+\cventry{2025--2028}{Alzheimer's Society Research Nurse Post}{AlzSoc}{£283,000}{PI}{}
+\cventry{2025--2030}{AD-SMART}{MRC/DRI}{£5.0 million}{Co-Investigator, "Outcomes WP" lead}{}
+\cventry{2024--2026}{ADA-PreMASTODON}{NIHR-HTA}{£200,000}{Co-Applicant}{}
+\cventry{2024--2025}{Biomarkers of cognitive impairment in CKD}{Kidneys For Life}{£20,000}{Co-Applicant, Supervisor}{}
+\cventry{2024--2029}{READ-OUT -- REAl world Dementia OUTcomes}{ARUK/AlzSoc/NIHR}{£4.5 million}{Co-Applicant, Site PI}{}
+\cventry{2023--2028}{ANTLER75+ Antidepressants to prevent relapse in depression in older people}{NIHR HTA}{£1.95 million}{Co-Applicant, Site PI}{}
+\cventry{2023--2026}{All-in-One neuroimaging for Mild Cognitive Impairment}{Alzheimer's Society}{£383,580}{Co-Applicant, PI}{}
+\cventry{2023--2025}{Molecular imaging of neurodegenerative pathology using deuterium MRI}{MRC}{£179,765}{Co-Applicant, Adviser}{}
+\cventry{2022--2023}{Neurological impact of COVID-19: SARS-CoV-2 neurovascular and neurodegenerative processes}{University of Manchester}{£50,000}{Co-Applicant}{}
+\cventry{2010--2012}{Determinants of cognitive impairment after ECT}{Health Research Board}{£153,000}{PI/Salary award}{}
+
+\section{Awards and Honors}
+\cventry{2025}{Health Services Journal Award}{}{}{}{Best Pharmaceutical Collaboration with the NHS (DPUK-led multisite evaluation project with Lilly, GMMH and NHS trusts in Sheffield, Oxford, Sussex)}
+\cventry{2024}{ACCIA National Clinical Impact Award Level N1}{}{}{}{}
+\cventry{2023}{Health Services Journal Award}{}{}{}{Modernising Diagnostics award for brainHealth Manchester - novel diagnostic pathway for MCI}
+
+\section{Publications}
+
+% Use all publications from bibliography
+\nocite{*}
+
+\vspace{0.3cm}
+\noindent\textbf{Peer-Reviewed Journal Articles}
+\printbibliography[heading=none,type=article]
+
+\vspace{0.3cm}
+\noindent\textbf{Book Chapters}
+\printbibliography[heading=none,type=incollection]
+
+\vspace{0.3cm}
+\noindent\textbf{Conference Proceedings and Abstracts}
+\printbibliography[heading=none,type=inproceedings]
+
+\vspace{0.3cm}
+\noindent\textbf{Other Publications}
+\printbibliography[heading=none,type=misc]
+
+\section{Conference Presentations (Last 5 years shown)}
+
+\subsection{International}
+\cventry{2025}{Variation in vascular risk assessment and management across UK and Irish memory/brain health clinics: a cross-sectional survey}{VasCog 2025}{}{}{}
+\cventry{2025}{Repurposed Drug Prioritisation Pipeline for an Alzheimer's Disease Multi-arm Platform Trial}{Alzheimer's Association International Conference}{}{}{}
+\cventry{2024}{Long-term health outcomes in non-dialysis dependent chronic kidney disease patients with cognitive impairment or dementia}{ERA-EDTA 2024}{}{}{}
+\cventry{2024}{brainHealth Manchester and preparedness for Disease Modifying Treatments}{American Hospital for Neurology and Psychiatry}{Abu Dhabi}{}{}
+\cventry{2023}{Brain Health Clinics, novel pathways for the diagnosis of neurodegeneration}{Royal College of Psychiatrists International Congress}{}{}{}
+\cventry{2023}{Psychosis in Parkinson's Disease}{World Parkinson's Congress}{Barcelona}{}{}
+\cventry{2023}{Roundtable on Psychosis in PD}{World Parkinson's Congress}{Barcelona}{}{}
+\cventry{2023}{Risk Reduction: A Novel Brain Health-focused Pathway for Patients with MCI in Greater Manchester}{AAIC Amsterdam}{}{}{}
+\cventry{2022}{Lithium and other Inhibitors of Tau phosphorylation}{Royal College of Psychiatrists International Congress}{}{}{}
+\cventry{2022}{Improving Identification, Assessment and Management of Osteoporosis and Fragility Fracture Risk on a Later Life Psychiatry Ward}{RCPsych International Congress}{}{}{}
+% \cventry{2018}{Depression in older people}{Pakistan Psychiatric Society Annual Conference}{Plenary session}{}{}
+% \cventry{2018}{Dementia Training camp for caregivers}{Aga Khan University Hospital}{Karachi, Pakistan}{}{}
+% \cventry{2014}{Neurobiological research in ECT}{Royal College of Psychiatrists International Conference}{Glasgow}{}{}
+% \cventry{2012}{Predictors of Immediate Physical and Cognitive Side Effects of ECT}{Society of Biological Psychiatry}{}{}{}
+
+\subsection{National (UK and Ireland)}
+\cventry{2025}{Cases in Dementia Diagnosis}{Dementias UK Conference}{}{}{}
+\cventry{2024}{Building molecular diagnostics in NHS Mental Health Trusts}{NHSE Northwest Dementia SIG}{}{}{}
+\cventry{2024}{brainHealth Manchester, roadmap toward DMTs for GM}{British Geriatrics Society NW division}{}{}{}
+\cventry{2024}{Dementia Research Update}{RCPsych Northwest Dementia Symposium}{}{}{}
+\cventry{2024}{Titanic problems in machine learning}{ARUK Research Conference}{}{}{}
+\cventry{2024}{Getting up and walking with CSF biomarkers in UK MH trusts}{London Memory Clinic Network}{}{}{}
+\cventry{2024}{Neuropsychiatry of Parkinson's update}{Parkinson's UK}{}{}{}
+\cventry{2024}{Clinical Cases}{Dementias Conference 2024}{}{}{}
+\cventry{2023}{Building a Brain Health Clinic}{Old Age Psychiatry Faculty RCPsych Webinar}{}{}{}
+\cventry{2023}{Brain Health Clinics}{RCPsych Old Age Psychiatry Conference}{}{}{}
+\cventry{2023}{Cases panel chair}{Dementias Conference 2023}{}{}{}
+\cventry{2022}{Cognitive Assessment in Context: Education, Language and Culture}{ARUK Clinical Conference}{}{}{}
+\cventry{2022}{Motivational Interviewing for Brain Health}{Brain Health 2022}{Edinburgh}{}{}
+\cventry{2022}{Brain Health Manchester - Pathway and Progress}{Oxford Brain Health Symposium}{}{}{}
+\cventry{2021}{Effect of baseline systolic hypertension on cognitive decline in Alzheimer's disease}{British Geriatric Society National Conference}{}{}{}
+\cventry{2020}{Diagnosis in AD}{Dementias UK Conference}{Online}{}{}
+\cventry{2020}{Biomarkers}{Alzheimer Society National Conference}{Online}{}{}
+% \cventry{2019}{Brain Health Clinics}{ARUK Inaugural Clinical Conference}{Royal Society of Medicine}{}{}
+% \cventry{2019}{Parkinson's is a neuropsychiatric illness (with late motor features)}{British Geriatrics Society Movement Disorders in Older People}{}{}{}
+% \cventry{2018}{ECT Facts and Fiction}{AMHPA Regional conference}{}{}{}
+% \cventry{2017}{Neuropsychiatric Symptoms in Parkinson's Disease}{Regional SALT conference}{}{}{}
+% \cventry{2017}{ECT Update for prescribers}{Andrew Sims Centre}{Leeds}{}{}
+% \cventry{2011}{Factors predicting immediate recovery of orientation after ECT}{Founder's Day}{St. Patrick's Hospital, Dublin}{}{}
+% \cventry{2011}{Variation in practice of ECT -- best evidence}{College of Psychiatry of Ireland: ECT Training day}{St. Vincent's University Hospital, Dublin}{}{}
+% \cventry{2008}{Stimulus dosing and Electrode placement -- best evidence}{College of Psychiatry of Ireland: ECT Training day}{St. Vincent's University Hospital, Dublin}{}{}
+% \cventry{2008}{Measuring attitudes to Electroconvulsive Therapy -- Iconography, Discourse and Analysis}{Medical Humanities workshop}{Trinity College Dublin}{}{}
+
+\section{Professional Memberships}
+\cvlistitem{International Psychogeriatric Association (2019--Present)}
+\cvlistitem{International Parkinson's and Movement Disorders Society (2018--Present)}
+\cvlistitem{British Geriatric Society (2017--Present)}
+\cvlistitem{Royal College of Psychiatrists (2010--Present)}
+
+\section{Innovation and Service Development}
+\cvline{Manchester Brain Health Centre}{In 2022, established the UK's first psychiatrist-led CSF biomarker clinic—initially single-handed, personally pipetting, processing, and freezing CSF samples. Integrated MFT cardiovascular risk assessment services and secured £1.6m from Alzheimer's Society, scaling this foundation into the Manchester Brain Health Centre. Built infrastructure now supporting £35 million industry investment across two research strands (discovery science and clinical science), with the Brain Health Centre population serving as rolling clinical cohort for translational research. Centre provides comprehensive risk assessment including CSF and blood molecular diagnostics, cardiovascular risk profiling, risk reduction interventions using Motivational Interviewing, and clinical trial recruitment. Part of the UK's Brain Health Coalition led by ARUK and Alzheimer's Society.}
+\cvline{National Impact}{First psychiatrist in the UK to establish in-house CSF biomarker diagnostics for AD. Advised clinicians throughout UK, Middle East, and Europe on replication. Number of biomarker-active brain health clinics in UK increased from 1 to 10 over past two years. Worked with industry partners (Lilly, Roche) and MFT Laboratory Directorate to establish England's second NHS Alzheimer's CSF Biomarker laboratory, now receiving samples from Sussex, Oxford, Sheffield, Salford and Surrey.}
+\cvline{Regional MDT}{Convened regional MDT group (August 2024) with neurology, neuroradiology, nuclear medicine, geriatrician and pharmacy colleagues for safe implementation of monoclonal antibodies as disease modifiers in Alzheimer's.}
+
+\section{Research Skills and Expertise}
+\subsection{Clinical Trial Experience}
+\cvline{}{Extensive experience in clinical trial design, setup, and coordination for both multicentre industry studies and complex local studies. Proficient in ethics applications, rater training, scale standardisation, data security, and trial coordination. Experienced in biological sample handling including human plasma, CSF, DNA and RNA samples.}
+\cvline{}{Proficient in diagnostic and therapeutic lumbar puncture and CSF pre-analytic sample management for biomarker studies.}
+\cvline{Rating Scales}{RBANS, CDR, MoCA, MMSE, ADAS-Cog, CIBIC, CSSES, MADRS, HAMD17/24, TOPF, Mediterranean Diet Scale, PSQI, ESI, CASP-19, GAD9, PHQ9. Proficiency in Aortic Pulse Wave Velocity measurement and Pure Tone Audiometry (HEARX).}
+
+\subsection{Statistics and Computing}
+\cvline{Programming}{Experience in R, Python, and C++. Statistical programming includes multi-level/mixed effects modelling (lmer in R) and deep learning (TensorFlow, PyTorch). Working knowledge of Django web development framework, HTML, JavaScript, CSS.}
+\cvline{Qualifications}{PgDipStat from TCD (2010). ONS accredited "Safe Researcher". Google accredited certificate in IT automation with Python. Completed 4-day "Regression Modelling Strategies" course with Prof. Frank Harrell at Vanderbilt (2022/3).}
+\cvline{Tools}{Familiar with BASH shell and Linux environments. Regular use of LaTeX and Quarto for document typesetting. Developed web calculator for cognitive assessment based on RBANS and TOPF.}
+\cvline{Current Study}{BSc in Mathematics with the Open University (in progress).}
+
+\section{Software and Tools}
+\cvline{bibword}{TypeScript MS Word plugin for the use and management of pure BibTeX bibliographies in academic writing: \url{https://github.com/sadneurons/bibword}}
+\cvline{RBANS calculator}{JavaScript web app for the lookup and plotting of RBANS cognitive scores based on age norms: \url{http://brainhealthmanchester.com/rbanstools/rbanscalc.html}}
+\cvline{sysreport}{Linux CLI tool for reporting hardware and utilisation \url{https://github.com/sadneurons/sysreport}}
+
+\section{Training and Professional Development}
+\subsection{Statistical and Computing Courses}
+\cventry{2023}{European Laboratory for Learning and Intelligent Systems Summer School}{Manchester ELLIS centre}{}{}{}
+\cventry{2023}{Regression Modelling Strategies}{F. Harrell/Vanderbilt}{}{}{}
+\cventry{2022}{Structure and Interpretation of Computer Programs}{David Beazley}{}{}{}
+\cventry{2022}{Regression Modelling Strategies}{F. Harrell/Vanderbilt}{}{}{}
+\cventry{2021}{Safe Researcher Training}{UK Data Service}{}{}{}
+\cventry{2021}{Google IT Automation with Python (Certificate)}{Coursera (Google)}{}{}{}
+\cventry{2021}{Customising models with TensorFlow 2}{Coursera (Imperial College London)}{}{}{}
+\cventry{2021}{Mathematics for Machine Learning (Multivariable Calculus)}{Coursera (Imperial College London)}{}{}{}
+\cventry{2021}{Getting started with TensorFlow 2}{Coursera (Imperial College London)}{}{}{}
+\cventry{2019}{Mathematics for Machine Learning (Linear Algebra)}{Coursera (Imperial College London)}{}{}{}
+\cventry{2013}{BUGS for data analysis}{MRC Biostatistics Unit, Cambridge}{}{}{}
+\cventry{2012}{Advanced R programming}{Hadley Wickham}{}{}{}
+\cventry{2011}{R programming for researchers}{Tango Consulting}{}{}{}
+
+\section{Service and Leadership}
+\cvline{UK Brain Health Coalition}{Founder member and Co-Chair of UK's Brain Health Coalition (convened under ARUK and Alzheimer's Society). Lead regular meetings to teach and disseminate approaches to early diagnosis and post-diagnostic support, advancing the brain health model nationally.}
+\cvline{CRN Leadership}{Clinical Research Network Lead for Dementia since 2019. Facilitated delivery and development of dementia research across Greater Manchester.}
+\cvline{COVID Response}{Member of NIHR's working group on remote trial delivery during COVID pandemic, developing framework for COVID-safe and robust trials.}
+\cvline{International Advisory}{As first psychiatrist in UK to establish CSF biomarker clinic for AD, advised clinicians throughout UK, Middle East, and Europe on service development. Hosted visiting fellows from Spain and Oman.}
+
+\section{Academic Service}
+\cvline{Grant Review}{Grant review board co-chair for Alzheimer's Society UK (2022--25), chairing and co-chairing expert review panels on physiology, biomarkers and clinical research. Grant review board member for Alzheimer's Research UK (2023--25) and The Alzheimer Society Ireland (2023).}
+\cvline{Trial Oversight}{Member of two clinical trial steering committees, chairing COBALT (NIHR EME).}
+\cvline{Peer Review}{Regular peer reviewer for journals in the field. Reviewer and panel member for NIHR i4i programme (2022).}
+\cvline{Editorial}{Invited guest editor for British Journal of Psychiatry's special issue on disease modifying therapies in Alzheimer's Disease (2023).}
+
+\section{Patient and Public Engagement}
+\cvlistitem{Trafford MCI group -- regular speaker}
+\cvlistitem{Together Dementia Support -- go-to speaker for research updates}
+\cvlistitem{Trafford Parkinson's Peer Support Group}
+\cvlistitem{Founder member, UK Brain Health Coalition}
+
+\section{Current University of Manchester Collaborations}
+\cvline{Dr. Sasha Philbert}{Cardiovascular Sciences -- Alzheimer's Society Fellowship (Sodium MRI in VaD)}
+\cvline{Dr. Karen Hampson}{Vision Science -- UKRI cross-disciplinary application on Adaptive Optics for retinal biomarkers of neurodegeneration, as well as DTP PhD applications}
+\cvline{Prof. Stuart Allan}{Neuroscience -- Manchester Brain Health Centre and Manchester Vascular Risk, Inflammation and Cognition (MaVRICS) bid}
+\cvline{Prof. Adam Greenstein}{Cardiovascular Sciences -- Manchester Brain Health Centre and validation of druggable targets for improving brain bloodflow}
+\cvline{Dr. Jenna Littlejohn}{Hearing Health BRC -- ABHAD study and plans for Brain Health Centre}
+\cvline{Prof. Laura Parkes}{Neuroimaging -- AllinOne study and Manchester Brain Health Centre}
+
+\section{Press and Media}
+\cventry{2024}{BBC Radio Manchester}{}{}{}{Interview on developments in dementia research and diagnostics}
+\cventry{2008}{Nothing to worry about?}{Irish Medical Times}{}{}{Article on anxiety disorders (with Dr Michael McDonough): \url{https://www.imt.ie/clinical/mental-health/nothing-to-worry-about-05-06-2008/}}
+
+\section{Disclosures and Industry Contact}
+\cvline{}{I hold no shares, and have no financial interest in any pharmaceutical companies. I have never taken speaker fees from pharmaceutical companies and involvement in, for example, advisory boards (Roche, Biogen, Lilly) is contracted with my trust, with all monies ploughed back into R \& I. In my capacity as theme lead in Health Innovation Manchester I have worked with major pharmaceutical companies: TauRx, Biogen, Lilly, Roche, as well as spin-out companies: Stratastem, AInostics, and SMEs like Linus, Scottish Brain Sciences, and Cognito, in preparing grant applications, designing roll-out, building an evidence base for healthcare system adaptation, and other aspects of service improvement and evaluation at the devolved health-system level. Most recently, I have consulted on Health Technology Assessment for novel therapeutics for Lilly, who likewise contracted with my NHS Trust.}
+
+\section{References}
+\cvline{}{Available upon request}
+
+\end{document}

@@ -1,0 +1,2404 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{vanovaeffectiveness}{article}{}
+      \name{author}{21}{}{%
+        {{hash=b8231332820ea4402f6f1ea7ba2d3829}{%
+           family={Vanova},
+           familyi={V\bibinitperiod},
+           given={Martina},
+           giveni={M\bibinitperiod}}}%
+        {{hash=98d7d0aaf1a51ab588be3173a17f770e}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Aysha\bibnamedelimb Mohamed\bibnamedelima Rafik},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=98c31b0fc602a7724f008d17685aa453}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={Iona},
+           giveni={I\bibinitperiod}}}%
+        {{hash=d7b79f0731b34f33458388df26e81273}{%
+           family={Gilpin},
+           familyi={G\bibinitperiod},
+           given={Gina},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d7b79f0731b34f33458388df26e81273}{%
+           family={Gilpin},
+           familyi={G\bibinitperiod},
+           given={Gina},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a4ddd1ec99f665af208506915f100dfb}{%
+           family={Manning},
+           familyi={M\bibinitperiod},
+           given={Emily\bibnamedelima N},
+           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=e68ce01216ec02c6a79339136cf8e539}{%
+           family={Ash},
+           familyi={A\bibinitperiod},
+           given={Charlotte},
+           giveni={C\bibinitperiod}}}%
+        {{hash=66e8c2235c6cf28b1d965a0f04f3741f}{%
+           family={Wittenberg},
+           familyi={W\bibinitperiod},
+           given={Philippa},
+           giveni={P\bibinitperiod}}}%
+        {{hash=32482564542a7a14ea88b46125f391ef}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2b87a0b25f130df1ef8436cabbed58d0}{%
+           family={Hoare},
+           familyi={H\bibinitperiod},
+           given={Zoe},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=aa8e6c4688a56bf36e36a47b9a72069c}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Rachel},
+           giveni={R\bibinitperiod}}}%
+        {{hash=461e27acdd58946571427dd7a5b57694}{%
+           family={Bray},
+           familyi={B\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a12a20ff4eac9f2711f3ad77fab94909}{%
+           family={Kipps},
+           familyi={K\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=eb0e3b02ec38919f941bd26c9ff8f4fc}{%
+           family={Devine},
+           familyi={D\bibinitperiod},
+           given={Ciara},
+           giveni={C\bibinitperiod}}}%
+        {{hash=16311593a43650fd3f496a7d0d5bb2d8}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Saliha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=517336b792427c9145952f01839f114d}{%
+           family={Koniotes},
+           familyi={K\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=923fbd38cc4688a85d6d246465e04757}{%
+           family={Warren},
+           familyi={W\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+        {{hash=25202271c66e65dd05012ac650d6e5b5}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3a17a24658ea2b356804650dd71eee02}{%
+           family={Suarez-Gonzalez},
+           familyi={S\bibinithyphendelim G\bibinitperiod},
+           given={Aida},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{26081cfd6872a26f6c51accccd57833b}
+      \strng{fullhash}{26081cfd6872a26f6c51accccd57833b}
+      \strng{bibnamehash}{26081cfd6872a26f6c51accccd57833b}
+      \strng{authorbibnamehash}{26081cfd6872a26f6c51accccd57833b}
+      \strng{authornamehash}{26081cfd6872a26f6c51accccd57833b}
+      \strng{authorfullhash}{26081cfd6872a26f6c51accccd57833b}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Preprint}
+      \field{note}{Available at SSRN: \url{https://ssrn.com/abstract=5527836}}
+      \field{title}{Effectiveness of Telehealth-Delivered Cognitive Rehabilitation for People with Cognitive Impairment as Part of Long COVID: Results from the CICERO (Cognitive Impairment in Long COVID: Phenotyping and Rehabilitation) Randomised, Controlled, Two-Arm, Parallel-Group, Clinical Trial}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.2139/ssrn.5527836
+      \endverb
+    \endentry
+    \entry{bowden2025altered}{inproceedings}{}
+      \name{author}{10}{}{%
+        {{hash=b12e42fa72cfa8900d120e0cce4d22f7}{%
+           family={Bowden},
+           familyi={B\bibinitperiod},
+           given={Freya},
+           giveni={F\bibinitperiod}}}%
+        {{hash=bdf17aeed4a0b52b029bb0e437ee9245}{%
+           family={Sparasci},
+           familyi={S\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod}}}%
+        {{hash=d035e212ffc266fc415960ed4253c31c}{%
+           family={Land},
+           familyi={L\bibinitperiod},
+           given={Laura-May},
+           giveni={L\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=16311593a43650fd3f496a7d0d5bb2d8}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Saliha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6947855694502e8ac3587b67d5bb26d6}{%
+           family={Matys},
+           familyi={M\bibinitperiod},
+           given={Tomasz},
+           giveni={T\bibinitperiod}}}%
+        {{hash=84ab1b1dc51c4213cb18c9b60d82f62b}{%
+           family={Menon},
+           familyi={M\bibinitperiod},
+           given={Vandana},
+           giveni={V\bibinitperiod}}}%
+        {{hash=66793c637d4d035ecbd334cbd2e09a56}{%
+           family={Greenstein},
+           familyi={G\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2a5dc9df3d5fa19c7e36d3736e4f570d}{%
+           family={T\bibnamedelima O'Brien},
+           familyi={T\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ada38c5a28aae7e3e30054d6f4955855}{%
+           family={Parkes},
+           familyi={P\bibinitperiod},
+           given={Laura\bibnamedelima M},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{050be6682d848fb6be756002251daf7e}
+      \strng{fullhash}{050be6682d848fb6be756002251daf7e}
+      \strng{bibnamehash}{050be6682d848fb6be756002251daf7e}
+      \strng{authorbibnamehash}{050be6682d848fb6be756002251daf7e}
+      \strng{authornamehash}{050be6682d848fb6be756002251daf7e}
+      \strng{authorfullhash}{050be6682d848fb6be756002251daf7e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Cerebral Circulation-Cognition and Behavior}
+      \field{title}{Altered CBF and Oxygen Metabolism in MCI and Association With Degree of Cognitive Impairment}
+      \field{volume}{9}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{100425}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cccb.2025.100425
+      \endverb
+    \endentry
+    \entry{dunne2025variation}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=abab1de6fb2d6af2dc4ead066ea2bcaf}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=fa9b158a35c6994355a6bcacea5e08c2}{%
+           family={Exalto},
+           familyi={E\bibinitperiod},
+           given={Lieza},
+           giveni={L\bibinitperiod}}}%
+        {{hash=14ae3f61283972c34d5b1e0c1e006395}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=58b72b8e8c06fb5d887612777a7f8d65}{%
+           family={Hainsworth},
+           familyi={H\bibinitperiod},
+           given={Atticus},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c71c6b9efee611f3e51ba08654186114}{%
+           family={Raymont},
+           familyi={R\bibinitperiod},
+           given={Vanessa},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{ef5107f1677e6d544241550cb104bdc1}
+      \strng{fullhash}{ef5107f1677e6d544241550cb104bdc1}
+      \strng{bibnamehash}{ef5107f1677e6d544241550cb104bdc1}
+      \strng{authorbibnamehash}{ef5107f1677e6d544241550cb104bdc1}
+      \strng{authornamehash}{ef5107f1677e6d544241550cb104bdc1}
+      \strng{authorfullhash}{ef5107f1677e6d544241550cb104bdc1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cerebral Circulation-Cognition and Behavior}
+      \field{title}{Variation in vascular risk assessment and management across UK memory/brain health clinics: a cross-sectional survey}
+      \field{volume}{9}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{100476}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cccb.2025.100476
+      \endverb
+    \endentry
+    \entry{iqbal2025repurposed}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=9bde72dc3c2942aa039bf23ff1cc4609}{%
+           family={Iqbal},
+           familyi={I\bibinitperiod},
+           given={Sabahat},
+           giveni={S\bibinitperiod}}}%
+        {{hash=599ca384e86e6a030f6c7e7fbe328fc8}{%
+           family={Olivares},
+           familyi={O\bibinitperiod},
+           given={Cristina\bibnamedelima Bonet},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=2f2b56071be66fc9c62d5a26ae2f975b}{%
+           family={Rizzo},
+           familyi={R\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+        {{hash=fef352b4000f4497e768e08f7da2aeac}{%
+           family={Parker},
+           familyi={P\bibinitperiod},
+           given={Thomas\bibnamedelima D},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=076c66e05f0d442ca40599a5d089122f}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Charis},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7d6350105cbe1a75dff3fa7e4527cd07}{%
+           family={Underwood},
+           familyi={U\bibinitperiod},
+           given={Benjamin\bibnamedelima R},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=e48e4558a3ee6d8d8621324b0313bf0b}{%
+           family={Carpenter},
+           familyi={C\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c71c6b9efee611f3e51ba08654186114}{%
+           family={Raymont},
+           familyi={R\bibinitperiod},
+           given={Vanessa},
+           giveni={V\bibinitperiod}}}%
+        {{hash=be851edbc0ae2372941c70eb122b676f}{%
+           family={Reith},
+           familyi={R\bibinitperiod},
+           given={Alastair},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{68f6b6fb92049eaf10f39b9a34f8392e}
+      \strng{fullhash}{68f6b6fb92049eaf10f39b9a34f8392e}
+      \strng{bibnamehash}{68f6b6fb92049eaf10f39b9a34f8392e}
+      \strng{authorbibnamehash}{68f6b6fb92049eaf10f39b9a34f8392e}
+      \strng{authornamehash}{68f6b6fb92049eaf10f39b9a34f8392e}
+      \strng{authorfullhash}{68f6b6fb92049eaf10f39b9a34f8392e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Alzheimer's \& Dementia}
+      \field{title}{Repurposed Drug Prioritisation Pipeline for an Alzheimer’s Disease Multi-arm Platform Trial}
+      \field{volume}{21}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{e102227}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/alz.102227
+      \endverb
+    \endentry
+    \entry{merlino2025health}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=c25d9e459a27025dbb26e61899d82b35}{%
+           family={Merlino},
+           familyi={M\bibinitperiod},
+           given={Lino},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e96a81f4312ab9f562d4b4813645f274}{%
+           family={Rainone},
+           familyi={R\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=55559faa6a1981e8c5c7551124b93a5c}{%
+           family={Chinnadurai},
+           familyi={C\bibinitperiod},
+           given={Rajkumar},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c5aba8b5f3803b08ae12f328b2d9dc9d}{%
+           family={Hernandez},
+           familyi={H\bibinitperiod},
+           given={Gema},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c4cd0ec8efd008c4c5377d0d6ca661ec}{%
+           family={Tollitt},
+           familyi={T\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a303b1ff7fad4a03de027b952ab36d73}{%
+           family={Battini},
+           familyi={B\bibinitperiod},
+           given={Graziana\bibnamedelima G},
+           giveni={G\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=a3b6ac61a82f9ffc375dc0c9b63d99ed}{%
+           family={Colombo},
+           familyi={C\bibinitperiod},
+           given={Paolo\bibnamedelima M},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a410b142df7792923c3f797117335d25}{%
+           family={Trivelli},
+           familyi={T\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=645773bb8e731e90065a19f797daaa8d}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod}}}%
+        {{hash=abab1de6fb2d6af2dc4ead066ea2bcaf}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{c5194fab57ee96f71a9b121f8bb04bf2}
+      \strng{fullhash}{c5194fab57ee96f71a9b121f8bb04bf2}
+      \strng{bibnamehash}{c5194fab57ee96f71a9b121f8bb04bf2}
+      \strng{authorbibnamehash}{c5194fab57ee96f71a9b121f8bb04bf2}
+      \strng{authornamehash}{c5194fab57ee96f71a9b121f8bb04bf2}
+      \strng{authorfullhash}{c5194fab57ee96f71a9b121f8bb04bf2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Clinical Kidney Journal}
+      \field{number}{1}
+      \field{title}{Health outcomes in chronic kidney disease patients with cognitive impairment or dementia: a global collaborative analysis}
+      \field{volume}{18}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{sfae401}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/ckj/sfae401
+      \endverb
+    \endentry
+    \entry{merlino2025pathophysiology}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c25d9e459a27025dbb26e61899d82b35}{%
+           family={Merlino},
+           familyi={M\bibinitperiod},
+           given={Lino},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c4cd0ec8efd008c4c5377d0d6ca661ec}{%
+           family={Tollitt},
+           familyi={T\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=abab1de6fb2d6af2dc4ead066ea2bcaf}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d28ff2e25dcb882919f289fc5f5683ad}{%
+           family={Kalra},
+           familyi={K\bibinitperiod},
+           given={Philip\bibnamedelima A},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {LWW}%
+      }
+      \strng{namehash}{edc3f6fb2c90ff7db4103bd8ee04cbf9}
+      \strng{fullhash}{edc3f6fb2c90ff7db4103bd8ee04cbf9}
+      \strng{bibnamehash}{edc3f6fb2c90ff7db4103bd8ee04cbf9}
+      \strng{authorbibnamehash}{edc3f6fb2c90ff7db4103bd8ee04cbf9}
+      \strng{authornamehash}{edc3f6fb2c90ff7db4103bd8ee04cbf9}
+      \strng{authorfullhash}{edc3f6fb2c90ff7db4103bd8ee04cbf9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current opinion in nephrology and hypertension}
+      \field{number}{6}
+      \field{title}{Pathophysiology of cognitive impairment in chronic kidney disease}
+      \field{volume}{34}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{459\bibrangedash 468}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1097/MNH.0000000000001043
+      \endverb
+    \endentry
+    \entry{qin2025ppie}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=816033660c747dc8810a321ff6b3d3ae}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Hongyi},
+           giveni={H\bibinitperiod}}}%
+        {{hash=09dfb3aec357b31d3aea3c184c1332e5}{%
+           family={Pointon},
+           familyi={P\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e48e4558a3ee6d8d8621324b0313bf0b}{%
+           family={Carpenter},
+           familyi={C\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c71c6b9efee611f3e51ba08654186114}{%
+           family={Raymont},
+           familyi={R\bibinitperiod},
+           given={Vanessa},
+           giveni={V\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f66d18514adb6ad5651c6b1eb75077d2}{%
+           family={Reeves},
+           familyi={R\bibinitperiod},
+           given={Suzanne},
+           giveni={S\bibinitperiod}}}%
+        {{hash=820b35817a5085107d3e46a5371ec431}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Shabinah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9bde72dc3c2942aa039bf23ff1cc4609}{%
+           family={Iqbal},
+           familyi={I\bibinitperiod},
+           given={Sabahat},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ba455d0a74264989f434e933822872da}{%
+           family={Bonet-Olivares},
+           familyi={B\bibinithyphendelim O\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d6b0a2a265eb3d17b9bcbec9dba737ce}{%
+           family={Whittle},
+           familyi={W\bibinitperiod},
+           given={Jo},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cold Spring Harbor Laboratory Press}%
+      }
+      \strng{namehash}{cf92d399b56373b2a6d72b313e7227d2}
+      \strng{fullhash}{cf92d399b56373b2a6d72b313e7227d2}
+      \strng{bibnamehash}{cf92d399b56373b2a6d72b313e7227d2}
+      \strng{authorbibnamehash}{cf92d399b56373b2a6d72b313e7227d2}
+      \strng{authornamehash}{cf92d399b56373b2a6d72b313e7227d2}
+      \strng{authorfullhash}{cf92d399b56373b2a6d72b313e7227d2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{medRxiv}
+      \field{title}{PPIE in clinical trials at scale: analysis of the first 3,250 responses on the POrtal for Patient and Public Engagement in Dementia (POPPED)}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{2025\bibrangedash 08}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1101/2025.01.08.25320302
+      \endverb
+    \endentry
+    \entry{kellett2024uptake}{article}{}
+      \name{author}{8}{}{%
+        {{hash=b85cf27d2662c8fbfb2271fb45e59f52}{%
+           family={Kellett},
+           familyi={K\bibinitperiod},
+           given={Katherine},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1c6fa994854a213e0d1efe0e0c57adde}{%
+           family={Pickard},
+           familyi={P\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a2ba52fc0f63f44cad7dc70929205087}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Kate},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4e44f2558d487d440aea78fdde7c2920}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=45da4649750e931f9e2b275eee8dc83d}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Craig},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5517ce4c65a013cdd00e109715fc09ec}{%
+           family={Kadler},
+           familyi={K\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+        {{hash=42b003740e410983296f491d6cb1044f}{%
+           family={Hooper},
+           familyi={H\bibinitperiod},
+           given={Nigel},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{12e2cead4473e95d4cabc5ae603ac2f3}
+      \strng{fullhash}{12e2cead4473e95d4cabc5ae603ac2f3}
+      \strng{bibnamehash}{12e2cead4473e95d4cabc5ae603ac2f3}
+      \strng{authorbibnamehash}{12e2cead4473e95d4cabc5ae603ac2f3}
+      \strng{authornamehash}{12e2cead4473e95d4cabc5ae603ac2f3}
+      \strng{authorfullhash}{12e2cead4473e95d4cabc5ae603ac2f3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cerebral Circulation-Cognition and Behavior}
+      \field{title}{Uptake and replication of SARS-CoV-2 in the cells of the neurovascular unit}
+      \field{volume}{6}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{100116}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cccb.2024.100116
+      \endverb
+    \endentry
+    \entry{koychev2024shifting}{article}{}
+      \name{author}{5}{}{%
+        {{hash=01438b928b724599c1a8b9405ab6497f}{%
+           family={Koychev},
+           familyi={K\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+        {{hash=f8a9cf46287412b9e06f9eab025bcfdf}{%
+           family={Harrison},
+           familyi={H\bibinitperiod},
+           given={Judith},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d7666a0de29a3305cc55dda5dd9a9785}{%
+           family={Malhotra},
+           familyi={M\bibinitperiod},
+           given={Paresh},
+           giveni={P\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f1c2be84ff110458a38812a7d0f5afed}{%
+           family={Sheehan},
+           familyi={S\bibinitperiod},
+           given={Bart},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{88c7ca8c23f2fb409545a297e7c40007}
+      \strng{fullhash}{88c7ca8c23f2fb409545a297e7c40007}
+      \strng{bibnamehash}{88c7ca8c23f2fb409545a297e7c40007}
+      \strng{authorbibnamehash}{88c7ca8c23f2fb409545a297e7c40007}
+      \strng{authornamehash}{88c7ca8c23f2fb409545a297e7c40007}
+      \strng{authorfullhash}{88c7ca8c23f2fb409545a297e7c40007}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The British Journal of Psychiatry}
+      \field{number}{6}
+      \field{title}{Shifting paradigms in dementia care: navigating new therapies and prevention strategies}
+      \field{volume}{224}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{187\bibrangedash 188}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1192/bjp.2024.55
+      \endverb
+    \endentry
+    \entry{merlino20241490}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=c25d9e459a27025dbb26e61899d82b35}{%
+           family={Merlino},
+           familyi={M\bibinitperiod},
+           given={Lino},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e96a81f4312ab9f562d4b4813645f274}{%
+           family={Rainone},
+           familyi={R\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=55559faa6a1981e8c5c7551124b93a5c}{%
+           family={Chinnadurai},
+           familyi={C\bibinitperiod},
+           given={Rajkumar},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f551495090f29f57707019a77fbfa15e}{%
+           family={Battini},
+           familyi={B\bibinitperiod},
+           given={Graziana},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8a15c8de6bdb2e38cf4337a1392ea86c}{%
+           family={Colombo},
+           familyi={C\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a410b142df7792923c3f797117335d25}{%
+           family={Trivelli},
+           familyi={T\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d28ff2e25dcb882919f289fc5f5683ad}{%
+           family={Kalra},
+           familyi={K\bibinitperiod},
+           given={Philip\bibnamedelima A},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{21741de2b55a926fb1bb5e7d318e8d19}
+      \strng{fullhash}{21741de2b55a926fb1bb5e7d318e8d19}
+      \strng{bibnamehash}{21741de2b55a926fb1bb5e7d318e8d19}
+      \strng{authorbibnamehash}{21741de2b55a926fb1bb5e7d318e8d19}
+      \strng{authornamehash}{21741de2b55a926fb1bb5e7d318e8d19}
+      \strng{authorfullhash}{21741de2b55a926fb1bb5e7d318e8d19}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nephrology Dialysis Transplantation}
+      \field{number}{Supplement\_1}
+      \field{title}{\# 1490 Long-term health outcomes in non-dialysis dependent chronic kidney disease patients with cognitive impairment or dementia}
+      \field{volume}{39}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{gfae069\bibrangedash 0673}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/ndt/gfae069.0673
+      \endverb
+    \endentry
+    \entry{vanova2024telehealth}{article}{}
+      \name{author}{19}{}{%
+        {{hash=b8231332820ea4402f6f1ea7ba2d3829}{%
+           family={Vanova},
+           familyi={V\bibinitperiod},
+           given={Martina},
+           giveni={M\bibinitperiod}}}%
+        {{hash=98d7d0aaf1a51ab588be3173a17f770e}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Aysha\bibnamedelimb Mohamed\bibnamedelima Rafik},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=98c31b0fc602a7724f008d17685aa453}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={Iona},
+           giveni={I\bibinitperiod}}}%
+        {{hash=d7b79f0731b34f33458388df26e81273}{%
+           family={Gilpin},
+           familyi={G\bibinitperiod},
+           given={Gina},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a4ddd1ec99f665af208506915f100dfb}{%
+           family={Manning},
+           familyi={M\bibinitperiod},
+           given={Emily\bibnamedelima N},
+           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=e68ce01216ec02c6a79339136cf8e539}{%
+           family={Ash},
+           familyi={A\bibinitperiod},
+           given={Charlotte},
+           giveni={C\bibinitperiod}}}%
+        {{hash=66e8c2235c6cf28b1d965a0f04f3741f}{%
+           family={Wittenberg},
+           familyi={W\bibinitperiod},
+           given={Philippa},
+           giveni={P\bibinitperiod}}}%
+        {{hash=32482564542a7a14ea88b46125f391ef}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2b87a0b25f130df1ef8436cabbed58d0}{%
+           family={Hoare},
+           familyi={H\bibinitperiod},
+           given={Zoe},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=aa8e6c4688a56bf36e36a47b9a72069c}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Rachel},
+           giveni={R\bibinitperiod}}}%
+        {{hash=461e27acdd58946571427dd7a5b57694}{%
+           family={Bray},
+           familyi={B\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d30a53a6588c9facdec7d9c7d8ca78a5}{%
+           family={Kipps},
+           familyi={K\bibinitperiod},
+           given={Christopher\bibnamedelima M},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=eb0e3b02ec38919f941bd26c9ff8f4fc}{%
+           family={Devine},
+           familyi={D\bibinitperiod},
+           given={Ciara},
+           giveni={C\bibinitperiod}}}%
+        {{hash=16311593a43650fd3f496a7d0d5bb2d8}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Saliha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=517336b792427c9145952f01839f114d}{%
+           family={Koniotes},
+           familyi={K\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=923fbd38cc4688a85d6d246465e04757}{%
+           family={Warren},
+           familyi={W\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+        {{hash=25202271c66e65dd05012ac650d6e5b5}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3a17a24658ea2b356804650dd71eee02}{%
+           family={Suarez-Gonzalez},
+           familyi={S\bibinithyphendelim G\bibinitperiod},
+           given={Aida},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {BioMed Central London}%
+      }
+      \strng{namehash}{613f19b174e6285a4b9613f24459473f}
+      \strng{fullhash}{613f19b174e6285a4b9613f24459473f}
+      \strng{bibnamehash}{613f19b174e6285a4b9613f24459473f}
+      \strng{authorbibnamehash}{613f19b174e6285a4b9613f24459473f}
+      \strng{authornamehash}{613f19b174e6285a4b9613f24459473f}
+      \strng{authorfullhash}{613f19b174e6285a4b9613f24459473f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trials}
+      \field{number}{1}
+      \field{title}{Telehealth-delivered cognitive rehabilitation for people with cognitive impairment as part of the post-COVID syndrome: protocol for a randomised controlled trial as part of the CICERO (Cognitive Impairment in Long COVID: Phenotyping and Rehabilitation) study}
+      \field{volume}{25}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{704}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s13063-024-08554-3
+      \endverb
+    \endentry
+    \entry{bradley2023risk}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=3cf13dfc3c2bdc17d2b302d351beac72}{%
+           family={Bradley},
+           familyi={B\bibinitperiod},
+           given={Rosie},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5877014f25b709b68228f1ae73b340b2}{%
+           family={Fox},
+           familyi={F\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6b02575e37ace87f8646759d4458b729}{%
+           family={Leroi},
+           familyi={L\bibinitperiod},
+           given={Iracema},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{96b305a6266e6088d0a24199a8ae52ea}
+      \strng{fullhash}{96b305a6266e6088d0a24199a8ae52ea}
+      \strng{bibnamehash}{96b305a6266e6088d0a24199a8ae52ea}
+      \strng{authorbibnamehash}{96b305a6266e6088d0a24199a8ae52ea}
+      \strng{authornamehash}{96b305a6266e6088d0a24199a8ae52ea}
+      \strng{authorfullhash}{96b305a6266e6088d0a24199a8ae52ea}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Alzheimer's \& Dementia}
+      \field{title}{Risk Reduction: A Novel Brain Health-focused Pathway for Patients with Mild Cognitive Impairment in Greater Manchester}
+      \field{volume}{19}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{e082741}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/alz.082741
+      \endverb
+    \endentry
+    \entry{dunne2023tipping}{article}{}
+      \name{author}{2}{}{%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=98e6e105e6c2ccad45f47bbc1021d973}{%
+           family={Coulthard},
+           familyi={C\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {BMJ Publishing Group Ltd}%
+      }
+      \strng{namehash}{4c1ef51229a471f430016e0b2260022b}
+      \strng{fullhash}{4c1ef51229a471f430016e0b2260022b}
+      \strng{bibnamehash}{4c1ef51229a471f430016e0b2260022b}
+      \strng{authorbibnamehash}{4c1ef51229a471f430016e0b2260022b}
+      \strng{authornamehash}{4c1ef51229a471f430016e0b2260022b}
+      \strng{authorfullhash}{4c1ef51229a471f430016e0b2260022b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Neurology, Neurosurgery \& Psychiatry}
+      \field{note}{Editorial}
+      \field{number}{9}
+      \field{title}{Tipping the scales towards routine APOE genotyping}
+      \field{volume}{94}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{669\bibrangedash 669}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1136/jnnp-2023-331180
+      \endverb
+    \endentry
+    \entry{taylor2023uncoupling}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=8df5bf4d0563f8dc240376581d4df912}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Jade\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=271f076e5309e2859da01c80d957a5c9}{%
+           family={Walsh},
+           familyi={W\bibinitperiod},
+           given={Katy\bibnamedelima R},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=058c5a7f904aaa3e4d408461e2afa439}{%
+           family={Mosneag},
+           familyi={M\bibinitperiod},
+           given={Ioana-Emilia},
+           giveni={I\bibinithyphendelim E\bibinitperiod}}}%
+        {{hash=78526ca7ebb01a67240a2a71f0e476c3}{%
+           family={Danby},
+           familyi={D\bibinitperiod},
+           given={Thea\bibnamedelima GE},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=1c0a67de51a106dbb17e7da93f8c3cc4}{%
+           family={Luka},
+           familyi={L\bibinitperiod},
+           given={Nadim},
+           giveni={N\bibinitperiod}}}%
+        {{hash=64098ed5664e6fcae436d5635c4af50c}{%
+           family={Chanda},
+           familyi={C\bibinitperiod},
+           given={Bishal},
+           giveni={B\bibinitperiod}}}%
+        {{hash=64693e8682b03fb361fb84a8cbf29b60}{%
+           family={Schiessl},
+           familyi={S\bibinitperiod},
+           given={Ingo},
+           giveni={I\bibinitperiod}}}%
+        {{hash=abab1de6fb2d6af2dc4ead066ea2bcaf}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=88c5c80910a6af5da71e2f66eaf686b6}{%
+           family={Hill-Eubanks},
+           familyi={H\bibinithyphendelim E\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f10a947a7dd98c4e793787037a010e69}{%
+           family={Hennig},
+           familyi={H\bibinitperiod},
+           given={Grant\bibnamedelima W},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Academy of Sciences}%
+      }
+      \strng{namehash}{3d8d2bfdcb1b3af55b90840da454aefe}
+      \strng{fullhash}{3d8d2bfdcb1b3af55b90840da454aefe}
+      \strng{bibnamehash}{3d8d2bfdcb1b3af55b90840da454aefe}
+      \strng{authorbibnamehash}{3d8d2bfdcb1b3af55b90840da454aefe}
+      \strng{authornamehash}{3d8d2bfdcb1b3af55b90840da454aefe}
+      \strng{authorfullhash}{3d8d2bfdcb1b3af55b90840da454aefe}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{33}
+      \field{title}{Uncoupling of Ca2+ sparks from BK channels in cerebral arteries underlies hypoperfusion in hypertension-induced vascular dementia}
+      \field{volume}{120}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{e2307513120}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1073/pnas.2307513120
+      \endverb
+    \endentry
+    \entry{senior2022improving}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=9244f0aea3c3b85864eb7da6a36020e4}{%
+           family={Senior},
+           familyi={S\bibinitperiod},
+           given={Morwenna},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9b8d440efee5ba32a3913aca77b29bdb}{%
+           family={Hewson},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1e90d3e7ae07553c66efa05c875f1b5e}{%
+           family={Brownless},
+           familyi={B\bibinitperiod},
+           given={Francesca},
+           giveni={F\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{9154248b52acd90da6c6c85acfd72ba7}
+      \strng{fullhash}{9154248b52acd90da6c6c85acfd72ba7}
+      \strng{bibnamehash}{9154248b52acd90da6c6c85acfd72ba7}
+      \strng{authorbibnamehash}{9154248b52acd90da6c6c85acfd72ba7}
+      \strng{authornamehash}{9154248b52acd90da6c6c85acfd72ba7}
+      \strng{authorfullhash}{9154248b52acd90da6c6c85acfd72ba7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BJPsych Open}
+      \field{number}{S1}
+      \field{title}{Improving the Identification, Assessment and Management of Osteoporosis and Fragility Fracture Risk on a Later Life Psychiatry Ward: A Complete Audit Cycle}
+      \field{volume}{8}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{S113\bibrangedash S113}
+      \range{pages}{-1}
+    \endentry
+    \entry{dunne2021mild}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=abab1de6fb2d6af2dc4ead066ea2bcaf}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=eb7de0dfdb9efbc16a08fece8dbc4df0}{%
+           family={Aarsland},
+           familyi={A\bibinitperiod},
+           given={Dag},
+           giveni={D\bibinitperiod}}}%
+        {{hash=65ca0947c00c4ed759d3c81b3f501864}{%
+           family={O’Brien},
+           familyi={O\bibinitperiod},
+           given={John\bibnamedelima T},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=c7410b67be10f7358ab7e7bae2382e07}{%
+           family={Ballard},
+           familyi={B\bibinitperiod},
+           given={Clive},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1e9813038ce84a5983e98ea40c9eeb49}{%
+           family={Banerjee},
+           familyi={B\bibinitperiod},
+           given={Sube},
+           giveni={S\bibinitperiod}}}%
+        {{hash=898634dac5127af4115665389c3d9405}{%
+           family={Fox},
+           familyi={F\bibinitperiod},
+           given={Nick\bibnamedelima C},
+           giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=3c84b318b0ac300adddb29931c9d774e}{%
+           family={Isaacs},
+           familyi={I\bibinitperiod},
+           given={Jeremy\bibnamedelima D},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=7d6350105cbe1a75dff3fa7e4527cd07}{%
+           family={Underwood},
+           familyi={U\bibinitperiod},
+           given={Benjamin\bibnamedelima R},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=6688d8ae0afcee51d71271ddf8614719}{%
+           family={Perry},
+           familyi={P\bibinitperiod},
+           given={Richard\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=25202271c66e65dd05012ac650d6e5b5}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{8f08cc0854880d038a64111cc26da150}
+      \strng{fullhash}{8f08cc0854880d038a64111cc26da150}
+      \strng{bibnamehash}{8f08cc0854880d038a64111cc26da150}
+      \strng{authorbibnamehash}{8f08cc0854880d038a64111cc26da150}
+      \strng{authornamehash}{8f08cc0854880d038a64111cc26da150}
+      \strng{authorfullhash}{8f08cc0854880d038a64111cc26da150}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Age and ageing}
+      \field{number}{1}
+      \field{title}{Mild cognitive impairment: the Manchester consensus}
+      \field{volume}{50}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{72\bibrangedash 80}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1093/ageing/afaa228
+      \endverb
+    \endentry
+    \entry{dunne2020drugs}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=21d934e70fb0efa70d12f8316c6eff7e}{%
+           family={Burns},
+           familyi={B\bibinitperiod},
+           given={Alistair},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{ad4d40f819cba811b387c156362b7a89}
+      \strng{fullhash}{ad4d40f819cba811b387c156362b7a89}
+      \strng{bibnamehash}{ad4d40f819cba811b387c156362b7a89}
+      \strng{authorbibnamehash}{ad4d40f819cba811b387c156362b7a89}
+      \strng{authornamehash}{ad4d40f819cba811b387c156362b7a89}
+      \strng{authorfullhash}{ad4d40f819cba811b387c156362b7a89}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Seminars in Clinical Psychopharmacology}
+      \field{title}{Drugs to Treat Dementia}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{433}
+      \range{pages}{1}
+    \endentry
+    \entry{husain2020stigma}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=40c9cca949e3ed150df7dd69456a9d46}{%
+           family={Husain},
+           familyi={H\bibinitperiod},
+           given={Muhammad\bibnamedelima Omair},
+           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=6afc2f54e221c10f255ea26523e8e6aa}{%
+           family={Zehra},
+           familyi={Z\bibinitperiod},
+           given={Syeda\bibnamedelima S},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=b4d89edcfb2c462c7fd1d5dcc0dde45d}{%
+           family={Umer},
+           familyi={U\bibinitperiod},
+           given={Madeha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b6cd6d6de4c9c40079e94e57cf846458}{%
+           family={Kiran},
+           familyi={K\bibinitperiod},
+           given={Tayyaba},
+           giveni={T\bibinitperiod}}}%
+        {{hash=794527498b068daa8f1ec9d40f7a9645}{%
+           family={Husain},
+           familyi={H\bibinitperiod},
+           given={Mina},
+           giveni={M\bibinitperiod}}}%
+        {{hash=466401d6e4dea7966f30d415bde71b00}{%
+           family={Soomro},
+           familyi={S\bibinitperiod},
+           given={Mustafa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e25e5fb12bed36815576a0f71b6dc5cb}{%
+           family={Sultan},
+           familyi={S\bibinitperiod},
+           given={Sarwat},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4c6e92e5e7321004f2658d5dfbc332f5}{%
+           family={Chaudhry},
+           familyi={C\bibinitperiod},
+           given={Imran\bibnamedelima B},
+           giveni={I\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=7b2f2d192c0d42ead9376500d3980d8e}{%
+           family={Naeem},
+           familyi={N\bibinitperiod},
+           given={Farooq},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{257d555ca4718f507a29bda2147b9c64}
+      \strng{fullhash}{257d555ca4718f507a29bda2147b9c64}
+      \strng{bibnamehash}{257d555ca4718f507a29bda2147b9c64}
+      \strng{authorbibnamehash}{257d555ca4718f507a29bda2147b9c64}
+      \strng{authornamehash}{257d555ca4718f507a29bda2147b9c64}
+      \strng{authorfullhash}{257d555ca4718f507a29bda2147b9c64}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BJPsych Open}
+      \field{number}{5}
+      \field{title}{Stigma toward mental and physical illness: attitudes of healthcare professionals, healthcare students and the general public in Pakistan}
+      \field{volume}{6}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{e81}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1192/bjo.2020.66
+      \endverb
+    \endentry
+    \entry{iracema_blueprint_2020}{article}{}
+      \name{author}{11}{}{%
+        {{hash=73ddec4949144bde1ad13774abaf7d16}{%
+           family={Iracema},
+           familyi={I\bibinitperiod},
+           given={Leroi},
+           giveni={L\bibinitperiod}}}%
+        {{hash=53ae6f2e47890bb0bf40b3e8bc3ff10d}{%
+           family={Charlotte},
+           familyi={C\bibinitperiod},
+           given={Peel},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4a1f50c1e5b243e136b83c3d08fb09ac}{%
+           family={Rebecca},
+           familyi={R\bibinitperiod},
+           given={Davenport},
+           giveni={D\bibinitperiod}}}%
+        {{hash=404bd961f2b6b9f1938ca5b9a82f2a46}{%
+           family={Ross},
+           familyi={R\bibinitperiod},
+           given={Dunne},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a408d8b05beb59e259dd0949d97d2b80}{%
+           family={Louise},
+           familyi={L\bibinitperiod},
+           given={Ebenezer},
+           giveni={E\bibinitperiod}}}%
+        {{hash=b367f84cca12d0c78b3b2e1ab9d41a2a}{%
+           family={Mahesh},
+           familyi={M\bibinitperiod},
+           given={Gopakumar},
+           giveni={G\bibinitperiod}}}%
+        {{hash=bdc6bd9325b314f9e61a10770fe94412}{%
+           family={Vachagan},
+           familyi={V\bibinitperiod},
+           given={Krishnaswami},
+           giveni={K\bibinitperiod}}}%
+        {{hash=40ae9b4651a7e049466d351079f6f941}{%
+           family={Jane},
+           familyi={J\bibinitperiod},
+           given={Lumsden},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ff90171a40f8c63a3e053d07d346ceec}{%
+           family={Helen},
+           familyi={H\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=86e304479695a8a50c63388f7cc6c167}{%
+           family={Jane},
+           familyi={J\bibinitperiod},
+           given={Price},
+           giveni={P\bibinitperiod}}}%
+        {{hash=46e74c889046354338d2ef0708e034d0}{%
+           family={Wilby},
+           familyi={W\bibinitperiod},
+           given={Williamson},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{99b8d2b0bf8f777b7411434f474735ca}
+      \strng{fullhash}{99b8d2b0bf8f777b7411434f474735ca}
+      \strng{bibnamehash}{99b8d2b0bf8f777b7411434f474735ca}
+      \strng{authorbibnamehash}{99b8d2b0bf8f777b7411434f474735ca}
+      \strng{authornamehash}{99b8d2b0bf8f777b7411434f474735ca}
+      \strng{authorfullhash}{99b8d2b0bf8f777b7411434f474735ca}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{26424274}
+      \field{journaltitle}{Journal of Neurodegenerative Disorders}
+      \field{month}{3}
+      \field{number}{1}
+      \field{shorttitle}{Blueprint for a {Brain} {Health} {Clinic} to {Detect} and {Manage} {Early}-{Stage} {Cognitive} {Decline}}
+      \field{title}{Blueprint for a {Brain} {Health} {Clinic} to {Detect} and {Manage} {Early}-{Stage} {Cognitive} {Decline}: {A} {Consensus} {Exercise}}
+      \field{volume}{3}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.36959/459/600
+      \endverb
+    \endentry
+    \entry{donald2019experiences}{article}{}
+      \name{author}{9}{}{%
+        {{hash=c1fc141eb9248fd5cf8c79bf0f63ef79}{%
+           family={Donald},
+           familyi={D\bibinitperiod},
+           given={Graeme},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f3080222eebfc59ba2ef438f697be666}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=fa99d7674ef12f965d3ca1422b987cd6}{%
+           family={McCarthy},
+           familyi={M\bibinitperiod},
+           given={Jodie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=38ad86ab85be9564fe11d0475200c2fd}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=dead2e145441e9f04fd4c0e22a4395cc}{%
+           family={Crossley},
+           familyi={C\bibinitperiod},
+           given={Brenda},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e122c847f4f5aa202991ad17a713c038}{%
+           family={Adshead},
+           familyi={A\bibinitperiod},
+           given={Paula},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5190b1ccb5be8231292f6a2be3751f5e}{%
+           family={Shaw},
+           familyi={S\bibinitperiod},
+           given={Vanessa},
+           giveni={V\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d0195ea35f6fa3441028b3ee887d4191}{%
+           family={Dwyer},
+           familyi={D\bibinitperiod},
+           given={Trish},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MA Healthcare London}%
+      }
+      \strng{namehash}{ddab0eb3d7f9e67ac2cad5ac147f3531}
+      \strng{fullhash}{ddab0eb3d7f9e67ac2cad5ac147f3531}
+      \strng{bibnamehash}{ddab0eb3d7f9e67ac2cad5ac147f3531}
+      \strng{authorbibnamehash}{ddab0eb3d7f9e67ac2cad5ac147f3531}
+      \strng{authornamehash}{ddab0eb3d7f9e67ac2cad5ac147f3531}
+      \strng{authorfullhash}{ddab0eb3d7f9e67ac2cad5ac147f3531}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{British Journal of Nursing}
+      \field{number}{15}
+      \field{title}{Experiences of nurses and other health workers participating in a reflective course on compassion-based care}
+      \field{volume}{28}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{1020\bibrangedash 1025}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.12968/bjon.2019.28.15.1020
+      \endverb
+    \endentry
+    \entry{dunne2019treatment}{incollection}{}
+      \name{author}{4}{}{%
+        {{hash=abab1de6fb2d6af2dc4ead066ea2bcaf}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=bec87ee20cd12b5be3be27733cd26361}{%
+           family={O'Neill-Kerr},
+           familyi={O\bibinithyphendelim K\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=73b6c043e6bfbaa97d377af375c8abfb}{%
+           family={McLoughlin},
+           familyi={M\bibinitperiod},
+           given={Declan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=68251cabf94aaea1c97535956a50bdcf}{%
+           family={Waite},
+           familyi={W\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge Core}%
+      }
+      \strng{namehash}{1344275b6471d4de4622a87d6f8798ca}
+      \strng{fullhash}{1344275b6471d4de4622a87d6f8798ca}
+      \strng{bibnamehash}{1344275b6471d4de4622a87d6f8798ca}
+      \strng{authorbibnamehash}{1344275b6471d4de4622a87d6f8798ca}
+      \strng{authornamehash}{1344275b6471d4de4622a87d6f8798ca}
+      \strng{authorfullhash}{1344275b6471d4de4622a87d6f8798ca}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ECT Handbook 4th Edition}
+      \field{title}{Treatment Suites and Practical Aspects of ECT}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{183\bibrangedash 201}
+      \range{pages}{19}
+    \endentry
+    \entry{leroi2019roadmap}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=6b02575e37ace87f8646759d4458b729}{%
+           family={Leroi},
+           familyi={L\bibinitperiod},
+           given={Iracema},
+           giveni={I\bibinitperiod}}}%
+        {{hash=a9741df536d3766f361d4fe8c591e049}{%
+           family={Chaudhry},
+           familyi={C\bibinitperiod},
+           given={Nasim},
+           giveni={N\bibinitperiod}}}%
+        {{hash=4b88cd989fa65f0b9a5e48b381ed4b79}{%
+           family={Daniel},
+           familyi={D\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ebbcf64620c2d73fa545d6244a663048}{%
+           family={Eman},
+           familyi={E\bibinitperiod},
+           given={Saima},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7b3bdde4c1e53ab137f8f2cd3fc3e5f0}{%
+           family={Farina},
+           familyi={F\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=269f439fb0cf29ff599b77c58e14bcfa}{%
+           family={Haidry},
+           familyi={H\bibinitperiod},
+           given={Sana-e-Zehra},
+           giveni={S\bibinithyphendelim e\bibinithyphendelim Z\bibinitperiod}}}%
+        {{hash=52d95bdf072b0ae2c6bd38ed24ca485d}{%
+           family={Husain},
+           familyi={H\bibinitperiod},
+           given={Nusrat},
+           giveni={N\bibinitperiod}}}%
+        {{hash=39accf871707035ba6b77b50b6256f79}{%
+           family={Jafri},
+           familyi={J\bibinitperiod},
+           given={Hussain},
+           giveni={H\bibinitperiod}}}%
+        {{hash=826363f7c800f207ae8a49ae6c477577}{%
+           family={Karim},
+           familyi={K\bibinitperiod},
+           given={Salman},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{0a6cc92de3006252901e563fe35421c9}
+      \strng{fullhash}{0a6cc92de3006252901e563fe35421c9}
+      \strng{bibnamehash}{0a6cc92de3006252901e563fe35421c9}
+      \strng{authorbibnamehash}{0a6cc92de3006252901e563fe35421c9}
+      \strng{authornamehash}{0a6cc92de3006252901e563fe35421c9}
+      \strng{authorfullhash}{0a6cc92de3006252901e563fe35421c9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Alzheimer's \& Dementia: Translational Research \& Clinical Interventions}
+      \field{title}{A roadmap to develop dementia research capacity and capability in Pakistan: a model for low-and middle-income countries}
+      \field{volume}{5}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{939\bibrangedash 952}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.trci.2019.10.005
+      \endverb
+    \endentry
+    \entry{ryan2018bdnf}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2556e89d0e0c8ed4f2628de408ed154e}{%
+           family={Ryan},
+           familyi={R\bibinitperiod},
+           given={Karen\bibnamedelima M},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cf555ad405a89ab4cdeebf80368900d9}{%
+           family={McLoughlin},
+           familyi={M\bibinitperiod},
+           given={Declan\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{56552b1906fc9fe16fcb074b63b6f45d}
+      \strng{fullhash}{56552b1906fc9fe16fcb074b63b6f45d}
+      \strng{bibnamehash}{56552b1906fc9fe16fcb074b63b6f45d}
+      \strng{authorbibnamehash}{56552b1906fc9fe16fcb074b63b6f45d}
+      \strng{authornamehash}{56552b1906fc9fe16fcb074b63b6f45d}
+      \strng{authorfullhash}{56552b1906fc9fe16fcb074b63b6f45d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Brain stimulation}
+      \field{number}{5}
+      \field{title}{BDNF plasma levels and genotype in depression and the response to electroconvulsive therapy}
+      \field{volume}{11}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{1123\bibrangedash 1131}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.brs.2018.06.004
+      \endverb
+    \endentry
+    \entry{ryan2017electroconvulsive}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=5c402dc1c7ff9cf6ce78ec87adf19496}{%
+           family={Ryan},
+           familyi={R\bibinitperiod},
+           given={KM},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8d7776ccbdbd0ad01e0b43dcdff1e5a6}{%
+           family={Glaviano},
+           familyi={G\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9dd6961e03e3e0af41f0df40d32749d0}{%
+           family={O'Donovan},
+           familyi={O\bibinitperiod},
+           given={SM},
+           giveni={S\bibinitperiod}}}%
+        {{hash=442d4752954ea90e4705e7b7ee77d74e}{%
+           family={Kolshus},
+           familyi={K\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d759ee46489193ca0ab2ca62d651554f}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=eedb8dd6e44179265617212c56bb953d}{%
+           family={Kavanagh},
+           familyi={K\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=25979defddcd9778950adc1ee944505f}{%
+           family={Jelovac},
+           familyi={J\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4882d5284d9de823326a5053ce0529ec}{%
+           family={Noone},
+           familyi={N\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8aee5bc8e15119bc57f3f89dc3de1baa}{%
+           family={Tucker},
+           familyi={T\bibinitperiod},
+           given={GM},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9897254b6ae4acae82c3413daae45209}{%
+           family={Dunn},
+           familyi={D\bibinitperiod},
+           given={MJ},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{e22283d3f228a6e3a9d0647df2f86bf4}
+      \strng{fullhash}{e22283d3f228a6e3a9d0647df2f86bf4}
+      \strng{bibnamehash}{e22283d3f228a6e3a9d0647df2f86bf4}
+      \strng{authorbibnamehash}{e22283d3f228a6e3a9d0647df2f86bf4}
+      \strng{authornamehash}{e22283d3f228a6e3a9d0647df2f86bf4}
+      \strng{authorfullhash}{e22283d3f228a6e3a9d0647df2f86bf4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Translational psychiatry}
+      \field{number}{3}
+      \field{title}{Electroconvulsive therapy modulates plasma pigment epithelium-derived factor in depression: a proteomics study}
+      \field{volume}{7}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{e1073}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1038/tp.2017.44
+      \endverb
+    \endentry
+    \entry{semkovska2016bitemporal}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=7e59fac7c8f007cc029d526f4470a50a}{%
+           family={Semkovska},
+           familyi={S\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6680fee84e6e0dc9914bda71d5575ffe}{%
+           family={Landau},
+           familyi={L\bibinitperiod},
+           given={Sabine},
+           giveni={S\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0870eb88fdc5fcdec90a95ca324fac95}{%
+           family={Kolshus},
+           familyi={K\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=267019919e84a54d1eb1bbb9593189f2}{%
+           family={Kavanagh},
+           familyi={K\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c7b763d81ddf2a006f8126e4a7ff6770}{%
+           family={Jelovac},
+           familyi={J\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod}}}%
+        {{hash=53d15ea221f3a608f324855fe4425ed2}{%
+           family={Noone},
+           familyi={N\bibinitperiod},
+           given={Martha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=096e86e346128d3f2bf03e0789582952}{%
+           family={Carton},
+           familyi={C\bibinitperiod},
+           given={Mary},
+           giveni={M\bibinitperiod}}}%
+        {{hash=633a7f5c976f0573788d8ceabcab1ab1}{%
+           family={Lambe},
+           familyi={L\bibinitperiod},
+           given={Sinead},
+           giveni={S\bibinitperiod}}}%
+        {{hash=526760c6c12d09648458465d6874c5d3}{%
+           family={McHugh},
+           familyi={M\bibinitperiod},
+           given={Caroline},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychiatric Association Arlington, VA}%
+      }
+      \strng{namehash}{d48c71b926611b9ed8aca99a90bb4894}
+      \strng{fullhash}{d48c71b926611b9ed8aca99a90bb4894}
+      \strng{bibnamehash}{d48c71b926611b9ed8aca99a90bb4894}
+      \strng{authorbibnamehash}{d48c71b926611b9ed8aca99a90bb4894}
+      \strng{authornamehash}{d48c71b926611b9ed8aca99a90bb4894}
+      \strng{authorfullhash}{d48c71b926611b9ed8aca99a90bb4894}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Psychiatry}
+      \field{number}{4}
+      \field{title}{Bitemporal versus high-dose unilateral twice-weekly electroconvulsive therapy for depression (EFFECT-Dep): a pragmatic, randomized, non-inferiority trial}
+      \field{volume}{173}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{408\bibrangedash 417}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1176/appi.ajp.2015.15030372
+      \endverb
+    \endentry
+    \entry{noone2014construction}{article}{}
+      \name{author}{7}{}{%
+        {{hash=53d15ea221f3a608f324855fe4425ed2}{%
+           family={Noone},
+           familyi={N\bibinitperiod},
+           given={Martha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7e59fac7c8f007cc029d526f4470a50a}{%
+           family={Semkovska},
+           familyi={S\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=096e86e346128d3f2bf03e0789582952}{%
+           family={Carton},
+           familyi={C\bibinitperiod},
+           given={Mary},
+           giveni={M\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=931980cf2518989d34d022f148631587}{%
+           family={Horgan},
+           familyi={H\bibinitperiod},
+           given={John-Paul},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=3959b1e1193f022878e4cd62e2db900e}{%
+           family={O'Kane},
+           familyi={O\bibinitperiod},
+           given={Breige},
+           giveni={B\bibinitperiod}}}%
+        {{hash=cf555ad405a89ab4cdeebf80368900d9}{%
+           family={McLoughlin},
+           familyi={M\bibinitperiod},
+           given={Declan\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media SA}%
+      }
+      \strng{namehash}{1c96c2dc7af412d1b39a700394ac573f}
+      \strng{fullhash}{1c96c2dc7af412d1b39a700394ac573f}
+      \strng{bibnamehash}{1c96c2dc7af412d1b39a700394ac573f}
+      \strng{authorbibnamehash}{1c96c2dc7af412d1b39a700394ac573f}
+      \strng{authornamehash}{1c96c2dc7af412d1b39a700394ac573f}
+      \strng{authorfullhash}{1c96c2dc7af412d1b39a700394ac573f}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Psychology}
+      \field{title}{Construction and updating of a public events questionnaire for repeated measures longitudinal studies}
+      \field{volume}{5}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{230}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fpsyg.2014.00230
+      \endverb
+    \endentry
+    \entry{noone2014public}{misc}{}
+      \name{author}{7}{}{%
+        {{hash=53d15ea221f3a608f324855fe4425ed2}{%
+           family={Noone},
+           familyi={N\bibinitperiod},
+           given={Martha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7e59fac7c8f007cc029d526f4470a50a}{%
+           family={Semkovska},
+           familyi={S\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=096e86e346128d3f2bf03e0789582952}{%
+           family={Carton},
+           familyi={C\bibinitperiod},
+           given={Mary},
+           giveni={M\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=931980cf2518989d34d022f148631587}{%
+           family={Horgan},
+           familyi={H\bibinitperiod},
+           given={John-Paul},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=3959b1e1193f022878e4cd62e2db900e}{%
+           family={O'Kane},
+           familyi={O\bibinitperiod},
+           given={Breige},
+           giveni={B\bibinitperiod}}}%
+        {{hash=cf555ad405a89ab4cdeebf80368900d9}{%
+           family={McLoughlin},
+           familyi={M\bibinitperiod},
+           given={Declan\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c96c2dc7af412d1b39a700394ac573f}
+      \strng{fullhash}{1c96c2dc7af412d1b39a700394ac573f}
+      \strng{bibnamehash}{1c96c2dc7af412d1b39a700394ac573f}
+      \strng{authorbibnamehash}{1c96c2dc7af412d1b39a700394ac573f}
+      \strng{authornamehash}{1c96c2dc7af412d1b39a700394ac573f}
+      \strng{authorfullhash}{1c96c2dc7af412d1b39a700394ac573f}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Frontiers in Psychology}
+      \field{note}{Dataset}
+      \field{title}{Public Events Questionnaire}
+      \field{year}{2014}
+      \true{nocite}
+    \endentry
+    \entry{dunne2013ect}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=abab1de6fb2d6af2dc4ead066ea2bcaf}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=cf555ad405a89ab4cdeebf80368900d9}{%
+           family={McLoughlin},
+           familyi={M\bibinitperiod},
+           given={Declan\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \strng{fullhash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \strng{bibnamehash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \strng{authorbibnamehash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \strng{authornamehash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \strng{authorfullhash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The ECT Handbook. 3rd ed. London: Royal College of Psychiatrists Publications}
+      \field{title}{ECT prescribing and practice}
+      \field{volume}{176}
+      \field{year}{2013}
+      \true{nocite}
+      \field{pages}{28\bibrangedash 44}
+      \range{pages}{17}
+    \endentry
+    \entry{fear2013treatment}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=c828e8b506de213abc277a43790f6252}{%
+           family={Fear},
+           familyi={F\bibinitperiod},
+           given={Christopher\bibnamedelima F},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=abab1de6fb2d6af2dc4ead066ea2bcaf}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=cf555ad405a89ab4cdeebf80368900d9}{%
+           family={McLoughlin},
+           familyi={M\bibinitperiod},
+           given={Declan\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RCPsych Publications}%
+      }
+      \strng{namehash}{aaa26c696ab73916d34947a6a996964d}
+      \strng{fullhash}{aaa26c696ab73916d34947a6a996964d}
+      \strng{bibnamehash}{aaa26c696ab73916d34947a6a996964d}
+      \strng{authorbibnamehash}{aaa26c696ab73916d34947a6a996964d}
+      \strng{authornamehash}{aaa26c696ab73916d34947a6a996964d}
+      \strng{authorfullhash}{aaa26c696ab73916d34947a6a996964d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The ECT Handbook}
+      \field{title}{Treatment of Schizophrenia and catatonia}
+      \field{year}{2013}
+      \true{nocite}
+      \field{pages}{140}
+      \range{pages}{1}
+    \endentry
+    \entry{dunne2012predictors}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=633a7f5c976f0573788d8ceabcab1ab1}{%
+           family={Lambe},
+           familyi={L\bibinitperiod},
+           given={Sinead},
+           giveni={S\bibinitperiod}}}%
+        {{hash=267019919e84a54d1eb1bbb9593189f2}{%
+           family={Kavanagh},
+           familyi={K\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=73b6c043e6bfbaa97d377af375c8abfb}{%
+           family={McLoughlin},
+           familyi={M\bibinitperiod},
+           given={Declan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ELSEVIER SCIENCE INC 360 PARK AVE SOUTH, NEW YORK, NY 10010-1710 USA}%
+      }
+      \strng{namehash}{8d4ea87fa50dc248404da25a277f5215}
+      \strng{fullhash}{8d4ea87fa50dc248404da25a277f5215}
+      \strng{bibnamehash}{8d4ea87fa50dc248404da25a277f5215}
+      \strng{authorbibnamehash}{8d4ea87fa50dc248404da25a277f5215}
+      \strng{authornamehash}{8d4ea87fa50dc248404da25a277f5215}
+      \strng{authorfullhash}{8d4ea87fa50dc248404da25a277f5215}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{BIOLOGICAL PSYCHIATRY}
+      \field{number}{8}
+      \field{title}{Predictors of Immediate Physical and Cognitive Side Effects of Electroconvulsive Therapy}
+      \field{volume}{71}
+      \field{year}{2012}
+      \true{nocite}
+      \field{pages}{101S\bibrangedash 101S}
+      \range{pages}{-1}
+    \endentry
+    \entry{dunne2012electroconvulsive}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=abab1de6fb2d6af2dc4ead066ea2bcaf}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=cf555ad405a89ab4cdeebf80368900d9}{%
+           family={McLoughlin},
+           familyi={M\bibinitperiod},
+           given={Declan\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \strng{fullhash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \strng{bibnamehash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \strng{authorbibnamehash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \strng{authornamehash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \strng{authorfullhash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Core Psychiatry}
+      \field{title}{Electroconvulsive therapy and therapeutic neuromodulation}
+      \field{year}{2012}
+      \true{nocite}
+      \field{pages}{617\bibrangedash 62711}
+      \range{pages}{62095}
+    \endentry
+    \entry{dunne2012physical}{article}{}
+      \name{author}{2}{}{%
+        {{hash=abab1de6fb2d6af2dc4ead066ea2bcaf}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=cf555ad405a89ab4cdeebf80368900d9}{%
+           family={McLoughlin},
+           familyi={M\bibinitperiod},
+           given={Declan\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \strng{fullhash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \strng{bibnamehash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \strng{authorbibnamehash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \strng{authornamehash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \strng{authorfullhash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medicine}
+      \field{note}{Review article}
+      \field{number}{12}
+      \field{title}{Physical treatments}
+      \field{volume}{40}
+      \field{year}{2012}
+      \true{nocite}
+      \field{pages}{672\bibrangedash 673}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1016/j.mpmed.2012.09.014
+      \endverb
+    \endentry
+    \entry{dunne2012systematic}{article}{}
+      \name{author}{2}{}{%
+        {{hash=abab1de6fb2d6af2dc4ead066ea2bcaf}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=cf555ad405a89ab4cdeebf80368900d9}{%
+           family={McLoughlin},
+           familyi={M\bibinitperiod},
+           given={Declan\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \strng{fullhash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \strng{bibnamehash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \strng{authorbibnamehash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \strng{authornamehash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \strng{authorfullhash}{e55996186b70cdc1ca3ea5dd12d01917}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The World Journal of Biological Psychiatry}
+      \field{number}{4}
+      \field{title}{Systematic review and meta-analysis of bifrontal electroconvulsive therapy versus bilateral and unilateral electroconvulsive therapy in depression}
+      \field{volume}{13}
+      \field{year}{2012}
+      \true{nocite}
+      \field{pages}{248\bibrangedash 258}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.3109/15622975.2011.608473
+      \endverb
+    \endentry
+    \entry{semkovska2012cognitive}{article}{}
+      \name{author}{4}{}{%
+        {{hash=59ebdae743c6893e90a4c78e6921dc13}{%
+           family={Semkovska},
+           familyi={S\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=62dc1490d524d5ac40af9f562708e058}{%
+           family={McLoughlin},
+           familyi={M\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d759ee46489193ca0ab2ca62d651554f}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4882d5284d9de823326a5053ce0529ec}{%
+           family={Noone},
+           familyi={N\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{277a805cbf6c0727ed9e8a68d71418cb}
+      \strng{fullhash}{277a805cbf6c0727ed9e8a68d71418cb}
+      \strng{bibnamehash}{277a805cbf6c0727ed9e8a68d71418cb}
+      \strng{authorbibnamehash}{277a805cbf6c0727ed9e8a68d71418cb}
+      \strng{authornamehash}{277a805cbf6c0727ed9e8a68d71418cb}
+      \strng{authorfullhash}{277a805cbf6c0727ed9e8a68d71418cb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Neuropsychopharmacology}
+      \field{number}{S1}
+      \field{title}{Cognitive effects of ECT}
+      \field{volume}{15}
+      \field{year}{2012}
+      \true{nocite}
+      \field{pages}{26\bibrangedash 27}
+      \range{pages}{2}
+    \endentry
+    \entry{dunne2011regional}{article}{}
+      \name{author}{2}{}{%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7b26c42ddb29cdaddaf16ce476f1776e}{%
+           family={McLoughlin},
+           familyi={M\bibinitperiod},
+           given={DM},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ba157cd952a4aeea01971319b6e565a}
+      \strng{fullhash}{6ba157cd952a4aeea01971319b6e565a}
+      \strng{bibnamehash}{6ba157cd952a4aeea01971319b6e565a}
+      \strng{authorbibnamehash}{6ba157cd952a4aeea01971319b6e565a}
+      \strng{authornamehash}{6ba157cd952a4aeea01971319b6e565a}
+      \strng{authorfullhash}{6ba157cd952a4aeea01971319b6e565a}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Irish Medical Journal}
+      \field{number}{3}
+      \field{title}{Regional variation in electroconvulsive therapy use}
+      \field{volume}{104}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{84}
+      \range{pages}{1}
+    \endentry
+    \entry{hughes2011inflammatory}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=37d73f9edb48acca8777c8f5e1a68552}{%
+           family={Hughes},
+           familyi={H\bibinitperiod},
+           given={Martina\bibnamedelima M},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=53d15ea221f3a608f324855fe4425ed2}{%
+           family={Noone},
+           familyi={N\bibinitperiod},
+           given={Martha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cf555ad405a89ab4cdeebf80368900d9}{%
+           family={McLoughlin},
+           familyi={M\bibinitperiod},
+           given={Declan\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6cb26c18ed40c8b36af56cb4af9f8bda}{%
+           family={Connor},
+           familyi={C\bibinitperiod},
+           given={Thomas\bibnamedelima J},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer London Ltd 236 Grays Inn Rd, 6th Floor, London WC1X 8HL, England}%
+      }
+      \strng{namehash}{9e935f13f02362b8150a5a738771b4da}
+      \strng{fullhash}{9e935f13f02362b8150a5a738771b4da}
+      \strng{bibnamehash}{9e935f13f02362b8150a5a738771b4da}
+      \strng{authorbibnamehash}{9e935f13f02362b8150a5a738771b4da}
+      \strng{authornamehash}{9e935f13f02362b8150a5a738771b4da}
+      \strng{authorfullhash}{9e935f13f02362b8150a5a738771b4da}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Irish Journal of Medical Science}
+      \field{title}{Inflammatory gene expression profile in treatment resistant depression}
+      \field{volume}{180}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{55\bibrangedash 55}
+      \range{pages}{1}
+    \endentry
+    \entry{kolshus2011antidepressant}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0870eb88fdc5fcdec90a95ca324fac95}{%
+           family={Kolshus},
+           familyi={K\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=72845ee74b12ba3f7c1d3d9967d7186a}{%
+           family={Douglas},
+           familyi={D\bibinitperiod},
+           given={Leonard},
+           giveni={L\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{6564ba12ea4795dfd1e1b024badf0c6d}
+      \strng{fullhash}{6564ba12ea4795dfd1e1b024badf0c6d}
+      \strng{bibnamehash}{6564ba12ea4795dfd1e1b024badf0c6d}
+      \strng{authorbibnamehash}{6564ba12ea4795dfd1e1b024badf0c6d}
+      \strng{authornamehash}{6564ba12ea4795dfd1e1b024badf0c6d}
+      \strng{authorfullhash}{6564ba12ea4795dfd1e1b024badf0c6d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Irish Journal of Psychological Medicine}
+      \field{note}{Review Article}
+      \field{number}{4}
+      \field{title}{Antidepressant augmentation and combination in unipolar depression: strong guidance, weak foundations}
+      \field{volume}{28}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{i\bibrangedash ix}
+      \range{pages}{9}
+    \endentry
+    \entry{hughes2010inflammatory}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=37d73f9edb48acca8777c8f5e1a68552}{%
+           family={Hughes},
+           familyi={H\bibinitperiod},
+           given={Martina\bibnamedelima M},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4882d5284d9de823326a5053ce0529ec}{%
+           family={Noone},
+           familyi={N\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7b26c42ddb29cdaddaf16ce476f1776e}{%
+           family={McLoughlin},
+           familyi={M\bibinitperiod},
+           given={DM},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0d3e9ac6efa8df9a4899cec21e4e5edf}{%
+           family={Connor},
+           familyi={C\bibinitperiod},
+           given={TJ},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{3e92be6fd12eebc424edb333577a70cb}
+      \strng{fullhash}{3e92be6fd12eebc424edb333577a70cb}
+      \strng{bibnamehash}{3e92be6fd12eebc424edb333577a70cb}
+      \strng{authorbibnamehash}{3e92be6fd12eebc424edb333577a70cb}
+      \strng{authornamehash}{3e92be6fd12eebc424edb333577a70cb}
+      \strng{authorfullhash}{3e92be6fd12eebc424edb333577a70cb}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Brain, Behavior, and Immunity}
+      \field{number}{Supplement 1}
+      \field{title}{Inflammatory gene expression profile in treatment resistant depression}
+      \field{volume}{24}
+      \field{year}{2010}
+      \true{nocite}
+      \field{pages}{S62\bibrangedash S63}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.bbi.2010.07.240
+      \endverb
+    \endentry
+    \entry{dunne2009electroconvulsive}{article}{}
+      \name{author}{3}{}{%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=267019919e84a54d1eb1bbb9593189f2}{%
+           family={Kavanagh},
+           familyi={K\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cf555ad405a89ab4cdeebf80368900d9}{%
+           family={McLoughlin},
+           familyi={M\bibinitperiod},
+           given={Declan\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{85264b835c311a93b2e28837f260c93d}
+      \strng{fullhash}{85264b835c311a93b2e28837f260c93d}
+      \strng{bibnamehash}{85264b835c311a93b2e28837f260c93d}
+      \strng{authorbibnamehash}{85264b835c311a93b2e28837f260c93d}
+      \strng{authornamehash}{85264b835c311a93b2e28837f260c93d}
+      \strng{authorfullhash}{85264b835c311a93b2e28837f260c93d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Irish journal of psychological medicine}
+      \field{number}{1}
+      \field{title}{Electroconvulsive therapy, capacity and the law in Ireland}
+      \field{volume}{26}
+      \field{year}{2009}
+      \true{nocite}
+      \field{pages}{3\bibrangedash 5}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1017/S0790966700000021
+      \endverb
+    \endentry
+    \entry{dunne2008physical}{article}{}
+      \name{author}{2}{}{%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cf555ad405a89ab4cdeebf80368900d9}{%
+           family={McLoughlin},
+           familyi={M\bibinitperiod},
+           given={Declan\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{4d88c01fac8a0772b3828ddcceb18112}
+      \strng{fullhash}{4d88c01fac8a0772b3828ddcceb18112}
+      \strng{bibnamehash}{4d88c01fac8a0772b3828ddcceb18112}
+      \strng{authorbibnamehash}{4d88c01fac8a0772b3828ddcceb18112}
+      \strng{authornamehash}{4d88c01fac8a0772b3828ddcceb18112}
+      \strng{authorfullhash}{4d88c01fac8a0772b3828ddcceb18112}
+      \field{extraname}{6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medicine}
+      \field{number}{9}
+      \field{title}{Physical treatments}
+      \field{volume}{36}
+      \field{year}{2008}
+      \true{nocite}
+      \field{pages}{499\bibrangedash 500}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1016/j.mpmed.2008.06.013
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
