@@ -44,7 +44,6 @@
 *.tmp
 *.xref
 *.html
-*.css
 *_html.tex
 
 # Keep only the final PDF (ignore intermediate PDFs)
