@@ -36,6 +36,35 @@ body {
   display: none;
 }
 
+/* PDF Download Button */
+.pdf-download {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 48px;
+  height: 48px;
+  background: var(--burgundy);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.pdf-download:hover {
+  background: var(--dark-burgundy);
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.pdf-download i {
+  font-size: 24px;
+}
+
 /* CV Header */
 .cv-header {
   display: flex;

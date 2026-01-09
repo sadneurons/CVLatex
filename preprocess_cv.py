@@ -205,6 +205,12 @@ def format_header_html(info):
     """Format personal info as HTML header - no indentation to avoid pandoc treating it as code"""
     # Add Font Awesome CDN link
     html = '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">\n'
+    
+    # Add PDF download button
+    html += '<a href="cv.pdf" class="pdf-download" title="Download PDF version" download>\n'
+    html += '<i class="fas fa-file-pdf"></i>\n'
+    html += '</a>\n'
+    
     html += '<div class="cv-header">\n'
     
     # Photo
