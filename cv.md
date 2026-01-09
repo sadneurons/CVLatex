@@ -102,7 +102,7 @@ Consultant in Old Age Psychiatry and Clinical Director of the Greater Manchester
 **2020--Present**: **Theme Lead for Dementia**, *Health Innovation Manchester (Manchester AHSN)*
 
 
-**2019--Present**: **Clinical Director**, *Greater Manchester Dementia Research Centre*. Leading the largest and most active dementia research centre in the Northwest with 7 staff and 9 ongoing studies. Managing commercial and grant-funded portfolio across Phase I-III trials. Established key partnerships with Salford Royal (NCA) and University of Manchester. Member of the national Dementia Trials Network (led by Prof. Mummery). <www.gmdrc.co.uk>
+**2019--Present**: **Clinical Director**, *Greater Manchester Dementia Research Centre*. Leading the largest and most active dementia research centre in the Northwest with 7 staff and 9 ongoing studies. Managing commercial and grant-funded portfolio across Phase I-III trials. Established key partnerships with Salford Royal (NCA) and University of Manchester. Member of the national Dementia Trials Network (led by Prof. Mummery). <http://www.gmdrc.co.uk>
 
 
 **2019--2024**: **NIHR-CRN Greater Manchester Dementia Clinical Lead**
@@ -401,13 +401,13 @@ Faculty member for the Neurology Academy, Sheffield. Teaching on Parkinson's Dis
 ### Conference Proceedings and Abstracts
 
 
-1. Bowden, Freya and Sparasci, Oliver and Land, Laura-May and Ahmed, Saliha and Matys, Tomasz and Menon, Vandana and Greenstein, Adam and **Dunne**, Ross and T O'Brien, John and Parkes, Laura M (2025). Altered CBF and Oxygen Metabolism in MCI and Association With Degree of Cognitive Impairment. *Cerebral Circulation-Cognition and Behavior*.
+1. Bowden, Freya and Sparasci, Oliver and Land, Laura-May and Ahmed, Saliha and Matys, Tomasz and Menon, Vandana and Greenstein, Adam and **Dunne**, Ross and T O'Brien, John and Parkes, Laura M (2025). Altered CBF and Oxygen Metabolism in MCI and Association With Degree of Cognitive Impairment. *Cerebral Circulation-Cognition and Behavior*. DOI: [10.1016/j.cccb.2025.100425](https://doi.org/10.1016/j.cccb.2025.100425).
 
-2. **Dunne**, Ross A and Exalto, Lieza and Young, Simon and Hainsworth, Atticus and Raymont, Vanessa (2025). Variation in vascular risk assessment and management across UK memory/brain health clinics: a cross-sectional survey. **.
+2. **Dunne**, Ross A and Exalto, Lieza and Young, Simon and Hainsworth, Atticus and Raymont, Vanessa (2025). Variation in vascular risk assessment and management across UK memory/brain health clinics: a cross-sectional survey. **. DOI: [10.1016/j.cccb.2025.100476](https://doi.org/10.1016/j.cccb.2025.100476).
 
-3. Merlino, Lino and Rainone, Francesco and Chinnadurai, Rajkumar and Battini, Graziana and Colombo, Paolo and Trivelli, Marco and **Dunne**, Ross and Kalra, Philip A (2024). \# 1490 Long-term health outcomes in non-dialysis dependent chronic kidney disease patients with cognitive impairment or dementia. **.
+3. Merlino, Lino and Rainone, Francesco and Chinnadurai, Rajkumar and Battini, Graziana and Colombo, Paolo and Trivelli, Marco and **Dunne**, Ross and Kalra, Philip A (2024). \# 1490 Long-term health outcomes in non-dialysis dependent chronic kidney disease patients with cognitive impairment or dementia. **. DOI: [10.1093/ndt/gfae069.0673](https://doi.org/10.1093/ndt/gfae069.0673).
 
-4. Bradley, Rosie and Fox, Sarah and **Dunne**, Ross and Leroi, Iracema (2023). Risk Reduction: A Novel Brain Health-focused Pathway for Patients with Mild Cognitive Impairment in Greater Manchester. **.
+4. Bradley, Rosie and Fox, Sarah and **Dunne**, Ross and Leroi, Iracema (2023). Risk Reduction: A Novel Brain Health-focused Pathway for Patients with Mild Cognitive Impairment in Greater Manchester. **. DOI: [10.1002/alz.082741](https://doi.org/10.1002/alz.082741).
 
 5. Senior, Morwenna and Hewson, Thomas and Brownless, Francesca and **Dunne**, Ross (2022). Improving the Identification, Assessment and Management of Osteoporosis and Fragility Fracture Risk on a Later Life Psychiatry Ward: A Complete Audit Cycle. **.
 
@@ -415,7 +415,7 @@ Faculty member for the Neurology Academy, Sheffield. Teaching on Parkinson's Dis
 
 7. Hughes, Martina M and **Dunne**, Ross and Noone, Martha and McLoughlin, Declan M and Connor, Thomas J (2011). Inflammatory gene expression profile in treatment resistant depression. *Irish Journal of Medical Science*.
 
-8. Hughes, Martina M and **Dunne**, Ross and Noone, M and McLoughlin, DM and Connor, TJ (2010). Inflammatory gene expression profile in treatment resistant depression. **.
+8. Hughes, Martina M and **Dunne**, Ross and Noone, M and McLoughlin, DM and Connor, TJ (2010). Inflammatory gene expression profile in treatment resistant depression. **. DOI: [10.1016/j.bbi.2010.07.240](https://doi.org/10.1016/j.bbi.2010.07.240).
 
 
 

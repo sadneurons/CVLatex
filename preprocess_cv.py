@@ -87,10 +87,13 @@ def format_bibliography_entry(entry, number=None):
     elif entry['type'] == 'inproceedings':
         booktitle = fields.get('booktitle', '')
         location = fields.get('address', '')
+        doi = fields.get('doi', '')
         
         citation = f"{author} ({year}). {title}. *{booktitle}*"
         if location:
             citation += f", {location}"
+        if doi:
+            citation += f". DOI: [{doi}](https://doi.org/{doi})"
         citation += "."
         
     else:  # misc and others
@@ -415,7 +418,14 @@ def preprocess_moderncv(content, bibfile='my_publications.bib'):
     content = re.sub(r'\\cvlistitem\{([^}]*)\}', r'- \1\n', content)
     
     # Clean up remaining LaTeX commands
-    content = re.sub(r'\\url\{([^}]*)\}', r'<\1>', content)
+    # For URLs, add http:// if not present
+    def fix_url(match):
+        url = match.group(1)
+        if not url.startswith(('http://', 'https://')):
+            url = 'http://' + url
+        return f'<{url}>'
+    
+    content = re.sub(r'\\url\{([^}]*)\}', fix_url, content)
     content = re.sub(r'\\textbf\{([^}]*)\}', r'**\1**', content)
     content = re.sub(r'\\textit\{([^}]*)\}', r'*\1*', content)
     
