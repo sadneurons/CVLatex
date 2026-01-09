@@ -4,8 +4,8 @@ This repository contains the LaTeX source for my academic CV, automatically comp
 
 ## 📄 View CV
 
-- **PDF Version**: [Download PDF](https://sadneurons.github.io/cv/cv.pdf)
-- **HTML Version**: [View Online](https://sadneurons.github.io/cv/)
+- **PDF Version**: [Download PDF](https://sadneurons.github.io/CVLatex/cv.pdf)
+- **HTML Version**: [View Online](https://sadneurons.github.io/CVLatex/)
 
 ## 🔧 Local Compilation
 
@@ -26,10 +26,12 @@ Or simply save the file in VS Code with LaTeX Workshop extension installed.
 
 ## 🚀 Automatic Deployment
 
+Repository: [github.com/sadneurons/CVLatex](https://github.com/sadneurons/CVLatex)
+
 Every push to `main` triggers a GitHub Actions workflow that:
 1. Compiles the PDF using XeLaTeX + Biber
 2. Generates an HTML version using make4ht
-3. Deploys both versions to GitHub Pages
+3. Deploys both versions to GitHub Pages at [sadneurons.github.io/CVLatex](https://sadneurons.github.io/CVLatex)
 
 ## 📝 Structure
 
