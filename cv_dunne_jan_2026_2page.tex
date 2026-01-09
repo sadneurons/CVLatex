@@ -1,0 +1,146 @@
+% !TEX program = xelatex
+% Two-Page CV
+% Compile with xelatex -> biber -> xelatex -> xelatex
+
+\documentclass[10pt,a4paper,roman]{moderncv}
+
+% ModernCV themes
+\moderncvstyle{classic}  
+\moderncvcolor{burgundy}     
+
+% Font package
+\usepackage{fontspec}
+\setmainfont{STIXGeneral}
+
+% Adjust page margins - tighter for 2-page CV
+\usepackage[margin=0.4in]{geometry}
+\setlength{\hintscolumnwidth}{2.5cm}
+
+% For tables
+\usepackage{longtable}
+\usepackage{array}
+
+% Bibliography
+\usepackage[sorting=ydnt,defernumbers=true,backend=biber,maxbibnames=3,maxcitenames=3]{biblatex}
+\addbibresource{my_publications.bib}
+
+% Style DOIs in burgundy color to match headings
+\DeclareFieldFormat{doi}{%
+  \textcolor{color1}{%
+    \mkbibacro{DOI}\addcolon\space
+    \ifhyperref
+      {\href{https://doi.org/#1}{\nolinkurl{#1}}}
+      {\nolinkurl{#1}}%
+  }%
+}
+
+% Custom command to extract fields from bibliography
+\usepackage{xparse}
+
+% Bold surname in citations
+\usepackage{xstring}
+
+\DeclareNameFormat{default}{%
+  \ifstrequal{\namepartfamily}{Dunne}
+    {\textbf{\namepartfamily}\addcomma\addspace\namepartgiveni}
+    {\namepartfamily\addcomma\addspace\namepartgiveni}%
+}
+
+% Set page background to slightly off-white with warm yellow tone
+\pagecolor[RGB]{255,253,236}
+
+% Reduce spacing
+\usepackage{etoolbox}
+\patchcmd{\makecvtitle}{\vspace*{-2.3em}}{\vspace*{-3em}}{}{}
+
+% Personal data
+\photo[0.9in][0.0pt]{bwphoto.png}
+\name{Dr. Ross A.}{Dunne}
+\title{Curriculum Vitae (short version) \\ \small{\today}}
+\address{brainHealth Manchester}{70 Daisybank Road}{Manchester M14 5QN} 
+\email{ross.dunne@gmmh.nhs.uk}
+\extrainfo{GMC: 7250794 \\ Specialist Register: 19/8/15}
+\social[orcid]{0000-0003-2046-6193}
+\social[github]{sadneurons} 
+\social[linkedin]{ross-dunne-gmdrc}
+
+\begin{document}
+
+\makecvtitle
+\vspace{-1em}
+
+\section{Summary}
+\cvline{}{Consultant in Old Age Psychiatry and Clinical Director of Greater Manchester Dementia Research Centre. Established UK's first psychiatrist-led CSF biomarker service (2022), scaled into Manchester Brain Health Centre with £35M industry investment. PI/Co-I on 30+ Phase I-III trials; research portfolio exceeding £15M. Focus: platform trials for disease-modifying therapies, molecular diagnostics, vascular cognitive impairment.}
+
+\section{Education \& Qualifications}
+\cventry{2010}{PgDipStat}{Trinity College Dublin}{}{}{}
+\cventry{2010}{MRCPsych}{Royal College of Psychiatrists}{}{}{}
+\cventry{2005}{MB BCH BAO}{Trinity College Dublin}{}{}{}
+
+\section{Current Appointments}
+\cventry{2024--}{NIHR-RDN NW England Dementia Clinical Lead}{}{}{}{}
+\cventry{2021--}{Board Member/Dementia Theme Co-Lead}{Geoffrey Jefferson BRC}{}{}{}
+\cventry{2020--}{Theme Lead for Dementia}{Health Innovation Manchester}{}{}{}
+\cventry{2019--}{Clinical Director}{Greater Manchester Dementia Research Centre}{}{}{}
+\cventry{2015--}{Consultant in Old Age Psychiatry}{GMMH Foundation Trust}{}{}{}
+
+\section{Selected Leadership Roles}
+\cventry{2019--}{Clinical Director}{Greater Manchester Dementia Research Centre}{}{}{Leading NW's largest dementia research centre (7 staff, 9 ongoing studies). Managing commercial/grant portfolio across Phase I-III trials. Member of national Dementia Trials Network.}
+\cventry{2022--}{Founder/Clinical Lead}{Manchester Brain Health Centre}{}{}{Established UK's first psychiatrist-led CSF biomarker clinic. Scaled into comprehensive Brain Health Centre with molecular diagnostics, cardiovascular profiling, and risk reduction interventions. £35M industry investment.}
+
+\section{Key Grants (Recent; £14M+ total)}
+\cventry{2026--31}{Treating auditory impairment in MCI}{NIHR PGfAR}{£3.4M}{Co-App}{}
+\cventry{2025--30}{AD-SMART Platform Trial}{MRC/DRI/ARUK}{£7.5M}{Co-I}{}
+\cventry{2025--27}{Manchester Brain Health Centre}{AlzSoc}{£1.5M}{Clinical Director}{}
+\cventry{2024--29}{READ-OUT Real world outcomes}{ARUK/AlzSoc/NIHR}{£4.5M}{Site PI}{}
+\cventry{2023--28}{ANTLER75+ Depression withdrawal}{NIHR HTA}{£1.95M}{Site PI}{}
+\cventry{2023--26}{All-in-One MCI imaging}{Alzheimer's Society}{£384K}{PI}{}
+
+\section{Awards \& Honors}
+\cventry{2025}{HSJ Award}{Best NHS Collaboration \& Best Pharmaceutical Partnership}{}{}{}
+\cventry{2024}{ACCIA National Clinical Impact Award Level N1}{}{}{}{}
+\cventry{2023}{HSJ Award}{Modernising Diagnostics (brainHealth Manchester)}{}{}{}
+
+\section{Clinical Trials Experience}
+\cvline{Overview}{PI/Co-I on 30+ trials across AD monoclonal antibodies (Aducanumab, Gantenerumab, AL002), AD therapeutics (semaglutide, tau ASO), neuropsychiatric symptoms, and biomarker/platform studies (AD-SMART, READOUT, AllinOne). Extensive Phase I-III experience.}
+\cvline{Current}{Gabriella (Roche), CELIA (Biogen), AD-SMART (MRC), ANTLER75+ (NIHR), CICERO (NIHR), AllinOne (AlzSoc), READOUT (ARUK/NIHR), ABHAD (BRC)}
+
+\section{Innovation \& Service Development}
+\cvline{Brain Health}{Established UK's first psychiatrist-led CSF biomarker clinic (2022). Personally developed lab protocols, scaled into Manchester Brain Health Centre with comprehensive molecular diagnostics, cardiovascular profiling, and risk reduction using Motivational Interviewing. Advised 10+ UK/international sites on replication.}
+\cvline{Regional MDT}{Convened regional MDT (2024) with neurology, neuroradiology, nuclear medicine for safe implementation of monoclonal antibody therapies in AD.}
+
+\section{Selected Publications (h-index: 20+)}
+\nocite{dunne2021mild,dunne2023tipping,taylor2023uncoupling,semkovska2016bitemporal,dunne2012systematic}
+
+\printbibliography[heading=none]
+
+\vspace{0.2cm}
+\noindent\textit{Full publication list (30+ peer-reviewed articles): available on request or ORCID 0000-0003-2046-6193}
+
+\section{Research Skills}
+\cvline{Clinical}{Trial design/coordination, GCP, ethics, lumbar puncture, CSF biomarker processing. Rating scales: RBANS, CDR, ADAS-Cog, MADRS, MMSE, MoCA, PWV, audiometry.}
+\cvline{Technical}{R, Python, C++, mixed-effects modelling (lmer), TensorFlow/PyTorch, LaTeX, Linux/BASH, web development (Django, JavaScript). PgDipStat (TCD), ONS Safe Researcher, Google Python certification.}
+\cvline{Current Study}{BSc Mathematics (Open University, in progress)}
+
+\section{Teaching \& Training}
+\cvline{}{Undergraduate tutor (TCD, Cambridge, Manchester). Faculty member, Neurology Academy Sheffield. Registered trainer/educational supervisor for higher trainees in old age psychiatry.}
+
+\section{Service \& Leadership}
+\cvline{UK Brain Health Coalition}{Founder member and Co-Chair (ARUK/AlzSoc). Lead national dissemination of early diagnosis approaches.}
+\cvline{Grant Review}{Co-chair, Alzheimer's Society UK (2022--25); Board member ARUK (2023--25), Alzheimer Society Ireland (2023)}
+\cvline{Trial Oversight}{TSC member and chair COBALT (NIHR EME). Peer reviewer for journals and NIHR i4i programme.}
+\cvline{Editorial}{Guest editor, British Journal of Psychiatry special issue on DMTs in AD (2023)}
+
+\section{Key Collaborations}
+\cvline{University of Manchester}{Prof Stuart Allan (Neuroscience, MaVRICS), Prof Adam Greenstein (CV Sciences), Prof Laura Parkes (Neuroimaging, AllinOne), Dr Sasha Philbert (CV Sciences, Na-MRI), Dr Karen Hampson (Vision Science, retinal biomarkers), Dr Jenna Littlejohn (Hearing BRC, ABHAD)}
+
+\section{Professional Memberships}
+\cvlistitem{Royal College of Psychiatrists (2010--)}
+\cvlistitem{British Geriatric Society (2017--)}
+\cvlistitem{International Psychogeriatric Association (2019--)}
+\cvlistitem{International Parkinson's and Movement Disorders Society (2018--)}
+
+\section{References}
+\cvline{}{Available upon request}
+
+\end{document}

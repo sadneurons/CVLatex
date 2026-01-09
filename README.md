@@ -4,7 +4,8 @@ This repository contains the LaTeX source for my academic CV, automatically comp
 
 ## 📄 View CV
 
-- **PDF Version**: [Download PDF](https://sadneurons.github.io/CVLatex/cv.pdf)
+- **Full CV (PDF)**: [Download PDF](https://sadneurons.github.io/CVLatex/cv.pdf)
+- **2-Page CV (PDF)**: [Download PDF](https://sadneurons.github.io/CVLatex/cv_2page.pdf)
 - **HTML Version**: [View Online](https://sadneurons.github.io/CVLatex/)
 
 ## 🔧 Local Compilation
@@ -35,7 +36,8 @@ Every push to `main` triggers a GitHub Actions workflow that:
 
 ## 📝 Structure
 
-- `cv_dunne_jan_2026.tex` - Main CV file
+- `cv_dunne_jan_2026.tex` - Full CV file
+- `cv_dunne_jan_2026_2page.tex` - Condensed 2-page CV
 - `my_publications.bib` - Publications bibliography
 - `my_posters_abstracts.bib` - Conference presentations
 - `bwphoto.png` - Profile photo

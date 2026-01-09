@@ -31,13 +31,21 @@ jobs:
           # GitHub runners won't have Bembo, so we'll modify the .tex to use a substitute
           # TeX Gyre Pagella is a good Palatino/Bembo substitute available in TeXLive
           sed -i 's/\\setmainfont{Bembo}/\\setmainfont{TeX Gyre Pagella}/' cv_dunne_jan_2026.tex
+          sed -i 's/\\setmainfont{Bembo}/\\setmainfont{TeX Gyre Pagella}/' cv_dunne_jan_2026_2page.tex
 
-      - name: Build PDF
+      - name: Build Full CV PDF
         run: |
           xelatex -interaction=nonstopmode cv_dunne_jan_2026.tex
           biber cv_dunne_jan_2026
           xelatex -interaction=nonstopmode cv_dunne_jan_2026.tex
           xelatex -interaction=nonstopmode cv_dunne_jan_2026.tex
+
+      - name: Build 2-Page CV PDF
+        run: |
+          xelatex -interaction=nonstopmode cv_dunne_jan_2026_2page.tex
+          biber cv_dunne_jan_2026_2page
+          xelatex -interaction=nonstopmode cv_dunne_jan_2026_2page.tex
+          xelatex -interaction=nonstopmode cv_dunne_jan_2026_2page.tex
 
       - name: Build HTML
         run: |
@@ -52,6 +60,7 @@ jobs:
           mv index.html public/
           cp cv-style.css public/
           cp cv_dunne_jan_2026.pdf public/cv.pdf
+          cp cv_dunne_jan_2026_2page.pdf public/cv_2page.pdf
           cp bwphoto.png public/ 2>/dev/null || true
 
       - name: Create landing page
@@ -116,7 +125,8 @@ jobs:
                   <p class="subtitle">Consultant in Old Age Psychiatry | Clinical Director, Greater Manchester Dementia Research Centre</p>
                   <p>Curriculum Vitae - January 2026</p>
                   <div class="button-group">
-                      <a href="cv.pdf" class="button">Download PDF</a>
+                      <a href="cv.pdf" class="button">Full CV (PDF)</a>
+                      <a href="cv_2page.pdf" class="button">2-Page CV (PDF)</a>
                       <a href="index.html" class="button secondary">View HTML</a>
                   </div>
               </div>
