@@ -19,132 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global}
-    \entry{vanovaeffectiveness}{article}{}
-      \name{author}{21}{}{%
-        {{hash=b8231332820ea4402f6f1ea7ba2d3829}{%
-           family={Vanova},
-           familyi={V\bibinitperiod},
-           given={Martina},
-           giveni={M\bibinitperiod}}}%
-        {{hash=98d7d0aaf1a51ab588be3173a17f770e}{%
-           family={Patel},
-           familyi={P\bibinitperiod},
-           given={Aysha\bibnamedelimb Mohamed\bibnamedelima Rafik},
-           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=98c31b0fc602a7724f008d17685aa453}{%
-           family={Scott},
-           familyi={S\bibinitperiod},
-           given={Iona},
-           giveni={I\bibinitperiod}}}%
-        {{hash=d7b79f0731b34f33458388df26e81273}{%
-           family={Gilpin},
-           familyi={G\bibinitperiod},
-           given={Gina},
-           giveni={G\bibinitperiod}}}%
-        {{hash=d7b79f0731b34f33458388df26e81273}{%
-           family={Gilpin},
-           familyi={G\bibinitperiod},
-           given={Gina},
-           giveni={G\bibinitperiod}}}%
-        {{hash=a4ddd1ec99f665af208506915f100dfb}{%
-           family={Manning},
-           familyi={M\bibinitperiod},
-           given={Emily\bibnamedelima N},
-           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=e68ce01216ec02c6a79339136cf8e539}{%
-           family={Ash},
-           familyi={A\bibinitperiod},
-           given={Charlotte},
-           giveni={C\bibinitperiod}}}%
-        {{hash=66e8c2235c6cf28b1d965a0f04f3741f}{%
-           family={Wittenberg},
-           familyi={W\bibinitperiod},
-           given={Philippa},
-           giveni={P\bibinitperiod}}}%
-        {{hash=32482564542a7a14ea88b46125f391ef}{%
-           family={Lim},
-           familyi={L\bibinitperiod},
-           given={Jason},
-           giveni={J\bibinitperiod}}}%
-        {{hash=2b87a0b25f130df1ef8436cabbed58d0}{%
-           family={Hoare},
-           familyi={H\bibinitperiod},
-           given={Zoe},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=aa8e6c4688a56bf36e36a47b9a72069c}{%
-           family={Evans},
-           familyi={E\bibinitperiod},
-           given={Rachel},
-           giveni={R\bibinitperiod}}}%
-        {{hash=461e27acdd58946571427dd7a5b57694}{%
-           family={Bray},
-           familyi={B\bibinitperiod},
-           given={Nathan},
-           giveni={N\bibinitperiod}}}%
-        {{hash=a12a20ff4eac9f2711f3ad77fab94909}{%
-           family={Kipps},
-           familyi={K\bibinitperiod},
-           given={Christopher},
-           giveni={C\bibinitperiod}}}%
-        {{hash=eb0e3b02ec38919f941bd26c9ff8f4fc}{%
-           family={Devine},
-           familyi={D\bibinitperiod},
-           given={Ciara},
-           giveni={C\bibinitperiod}}}%
-        {{hash=16311593a43650fd3f496a7d0d5bb2d8}{%
-           family={Ahmed},
-           familyi={A\bibinitperiod},
-           given={Saliha},
-           giveni={S\bibinitperiod}}}%
-        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
-           family={Dunne},
-           familyi={D\bibinitperiod},
-           given={Ross},
-           giveni={R\bibinitperiod}}}%
-        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
-           family={Dunne},
-           familyi={D\bibinitperiod},
-           given={Ross},
-           giveni={R\bibinitperiod}}}%
-        {{hash=517336b792427c9145952f01839f114d}{%
-           family={Koniotes},
-           familyi={K\bibinitperiod},
-           given={Anna},
-           giveni={A\bibinitperiod}}}%
-        {{hash=923fbd38cc4688a85d6d246465e04757}{%
-           family={Warren},
-           familyi={W\bibinitperiod},
-           given={Catherine},
-           giveni={C\bibinitperiod}}}%
-        {{hash=25202271c66e65dd05012ac650d6e5b5}{%
-           family={Chan},
-           familyi={C\bibinitperiod},
-           given={Dennis},
-           giveni={D\bibinitperiod}}}%
-        {{hash=3a17a24658ea2b356804650dd71eee02}{%
-           family={Suarez-Gonzalez},
-           familyi={S\bibinithyphendelim G\bibinitperiod},
-           given={Aida},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{26081cfd6872a26f6c51accccd57833b}
-      \strng{fullhash}{26081cfd6872a26f6c51accccd57833b}
-      \strng{bibnamehash}{26081cfd6872a26f6c51accccd57833b}
-      \strng{authorbibnamehash}{26081cfd6872a26f6c51accccd57833b}
-      \strng{authornamehash}{26081cfd6872a26f6c51accccd57833b}
-      \strng{authorfullhash}{26081cfd6872a26f6c51accccd57833b}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Preprint}
-      \field{note}{Available at SSRN: \url{https://ssrn.com/abstract=5527836}}
-      \field{title}{Effectiveness of Telehealth-Delivered Cognitive Rehabilitation for People with Cognitive Impairment as Part of Long COVID: Results from the CICERO (Cognitive Impairment in Long COVID: Phenotyping and Rehabilitation) Randomised, Controlled, Two-Arm, Parallel-Group, Clinical Trial}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.2139/ssrn.5527836
-      \endverb
-    \endentry
     \entry{bowden2025altered}{inproceedings}{}
       \name{author}{10}{}{%
         {{hash=b12e42fa72cfa8900d120e0cce4d22f7}{%
@@ -554,6 +428,133 @@
       \range{pages}{4}
       \verb{doi}
       \verb 10.1101/2025.01.08.25320302
+      \endverb
+    \endentry
+    \entry{vanovaeffectiveness}{article}{}
+      \name{author}{21}{}{%
+        {{hash=b8231332820ea4402f6f1ea7ba2d3829}{%
+           family={Vanova},
+           familyi={V\bibinitperiod},
+           given={Martina},
+           giveni={M\bibinitperiod}}}%
+        {{hash=98d7d0aaf1a51ab588be3173a17f770e}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Aysha\bibnamedelimb Mohamed\bibnamedelima Rafik},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=98c31b0fc602a7724f008d17685aa453}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={Iona},
+           giveni={I\bibinitperiod}}}%
+        {{hash=d7b79f0731b34f33458388df26e81273}{%
+           family={Gilpin},
+           familyi={G\bibinitperiod},
+           given={Gina},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d7b79f0731b34f33458388df26e81273}{%
+           family={Gilpin},
+           familyi={G\bibinitperiod},
+           given={Gina},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a4ddd1ec99f665af208506915f100dfb}{%
+           family={Manning},
+           familyi={M\bibinitperiod},
+           given={Emily\bibnamedelima N},
+           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=e68ce01216ec02c6a79339136cf8e539}{%
+           family={Ash},
+           familyi={A\bibinitperiod},
+           given={Charlotte},
+           giveni={C\bibinitperiod}}}%
+        {{hash=66e8c2235c6cf28b1d965a0f04f3741f}{%
+           family={Wittenberg},
+           familyi={W\bibinitperiod},
+           given={Philippa},
+           giveni={P\bibinitperiod}}}%
+        {{hash=32482564542a7a14ea88b46125f391ef}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2b87a0b25f130df1ef8436cabbed58d0}{%
+           family={Hoare},
+           familyi={H\bibinitperiod},
+           given={Zoe},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=aa8e6c4688a56bf36e36a47b9a72069c}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Rachel},
+           giveni={R\bibinitperiod}}}%
+        {{hash=461e27acdd58946571427dd7a5b57694}{%
+           family={Bray},
+           familyi={B\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a12a20ff4eac9f2711f3ad77fab94909}{%
+           family={Kipps},
+           familyi={K\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=eb0e3b02ec38919f941bd26c9ff8f4fc}{%
+           family={Devine},
+           familyi={D\bibinitperiod},
+           given={Ciara},
+           giveni={C\bibinitperiod}}}%
+        {{hash=16311593a43650fd3f496a7d0d5bb2d8}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Saliha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=86cd31e8255ddfa5733d853e3bf5f5b1}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=517336b792427c9145952f01839f114d}{%
+           family={Koniotes},
+           familyi={K\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=923fbd38cc4688a85d6d246465e04757}{%
+           family={Warren},
+           familyi={W\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+        {{hash=25202271c66e65dd05012ac650d6e5b5}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3a17a24658ea2b356804650dd71eee02}{%
+           family={Suarez-Gonzalez},
+           familyi={S\bibinithyphendelim G\bibinitperiod},
+           given={Aida},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{26081cfd6872a26f6c51accccd57833b}
+      \strng{fullhash}{26081cfd6872a26f6c51accccd57833b}
+      \strng{bibnamehash}{26081cfd6872a26f6c51accccd57833b}
+      \strng{authorbibnamehash}{26081cfd6872a26f6c51accccd57833b}
+      \strng{authornamehash}{26081cfd6872a26f6c51accccd57833b}
+      \strng{authorfullhash}{26081cfd6872a26f6c51accccd57833b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Preprint}
+      \field{note}{Available at SSRN: \url{https://ssrn.com/abstract=5527836}}
+      \field{title}{Effectiveness of Telehealth-Delivered Cognitive Rehabilitation for People with Cognitive Impairment as Part of Long COVID: Results from the CICERO (Cognitive Impairment in Long COVID: Phenotyping and Rehabilitation) Randomised, Controlled, Two-Arm, Parallel-Group, Clinical Trial}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.2139/ssrn.5527836
       \endverb
     \endentry
     \entry{kellett2024uptake}{article}{}

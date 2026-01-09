@@ -24,7 +24,7 @@ jobs:
       - name: Install TeX Live
         run: |
           sudo apt-get update
-          sudo apt-get install -y texlive-xetex texlive-bibtex-extra biber texlive-fonts-extra texlive-latex-extra tex4ht
+          sudo apt-get install -y texlive-xetex texlive-bibtex-extra biber texlive-fonts-extra texlive-latex-extra pandoc python3
 
       - name: Install Bembo (fallback to TeX Gyre Pagella if not available)
         run: |
@@ -41,22 +41,16 @@ jobs:
 
       - name: Build HTML
         run: |
-          # Create a copy without fontspec for htlatex (which doesn't handle it well)
-          cp cv_dunne_jan_2026.tex cv_dunne_jan_2026_html.tex
-          sed -i 's/% !TEX program = xelatex//' cv_dunne_jan_2026_html.tex
-          sed -i 's/\\usepackage{fontspec}//' cv_dunne_jan_2026_html.tex
-          sed -i 's/\\setmainfont{.*}//' cv_dunne_jan_2026_html.tex
-          sed -i 's/\\documentclass\[11pt,a4paper,roman\]{moderncv}/\\documentclass[11pt,a4paper]{moderncv}/' cv_dunne_jan_2026_html.tex
+          # Use our Python preprocessor to convert LaTeX to Markdown
+          python3 preprocess_cv.py cv_dunne_jan_2026.tex cv.md my_publications.bib
           
-          # Run htlatex with biblatex support
-          htlatex cv_dunne_jan_2026_html.tex "xhtml,charset=utf-8" " -cunihtf -utf8"
-          biber cv_dunne_jan_2026_html
-          htlatex cv_dunne_jan_2026_html.tex "xhtml,charset=utf-8" " -cunihtf -utf8"
+          # Convert Markdown to HTML with Pandoc
+          pandoc cv.md -f markdown+raw_html -t html -o index.html --standalone --css=cv-style.css --metadata title="Dr. Ross A. Dunne - Curriculum Vitae"
           
-          # Move to public directory
+          # Create public directory and copy files
           mkdir -p public
-          mv cv_dunne_jan_2026_html.html public/index.html
-          mv cv_dunne_jan_2026_html.css public/ 2>/dev/null || true
+          mv index.html public/
+          cp cv-style.css public/
           cp cv_dunne_jan_2026.pdf public/cv.pdf
           cp bwphoto.png public/ 2>/dev/null || true
 
