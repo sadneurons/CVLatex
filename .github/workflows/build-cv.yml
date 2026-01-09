@@ -24,7 +24,7 @@ jobs:
       - name: Install TeX Live
         run: |
           sudo apt-get update
-          sudo apt-get install -y texlive-xetex texlive-bibtex-extra biber texlive-fonts-extra texlive-latex-extra tex4ht make4ht
+          sudo apt-get install -y texlive-xetex texlive-bibtex-extra biber texlive-fonts-extra texlive-latex-extra tex4ht
 
       - name: Install Bembo (fallback to TeX Gyre Pagella if not available)
         run: |
@@ -41,17 +41,17 @@ jobs:
 
       - name: Build HTML
         run: |
-          # Create a copy without fontspec for make4ht (which doesn't handle it well)
+          # Create a copy without fontspec for htlatex (which doesn't handle it well)
           cp cv_dunne_jan_2026.tex cv_dunne_jan_2026_html.tex
           sed -i 's/% !TEX program = xelatex//' cv_dunne_jan_2026_html.tex
           sed -i 's/\\usepackage{fontspec}//' cv_dunne_jan_2026_html.tex
           sed -i 's/\\setmainfont{.*}//' cv_dunne_jan_2026_html.tex
           sed -i 's/\\documentclass\[11pt,a4paper,roman\]{moderncv}/\\documentclass[11pt,a4paper]{moderncv}/' cv_dunne_jan_2026_html.tex
           
-          # Run make4ht with biblatex support
-          make4ht -u cv_dunne_jan_2026_html.tex "mathml,charset=utf-8" " -cunihtf -utf8"
+          # Run htlatex with biblatex support
+          htlatex cv_dunne_jan_2026_html.tex "xhtml,charset=utf-8" " -cunihtf -utf8"
           biber cv_dunne_jan_2026_html
-          make4ht -u cv_dunne_jan_2026_html.tex "mathml,charset=utf-8" " -cunihtf -utf8"
+          htlatex cv_dunne_jan_2026_html.tex "xhtml,charset=utf-8" " -cunihtf -utf8"
           
           # Move to public directory
           mkdir -p public
