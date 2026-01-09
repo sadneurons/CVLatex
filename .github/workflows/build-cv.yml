@@ -24,7 +24,7 @@ jobs:
       - name: Install TeX Live
         run: |
           sudo apt-get update
-          sudo apt-get install -y texlive-xetex texlive-bibtex-extra biber texlive-fonts-extra texlive-latex-extra tex4ht
+          sudo apt-get install -y texlive-xetex texlive-bibtex-extra biber texlive-fonts-extra texlive-latex-extra tex4ht make4ht
 
       - name: Install Bembo (fallback to TeX Gyre Pagella if not available)
         run: |
