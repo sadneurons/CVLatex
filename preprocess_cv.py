@@ -24,13 +24,18 @@ def parse_bibfile(bibfile):
         cite_key = match.group(2).strip()
         fields_str = match.group(3)
         
-        # Parse fields
+        # Parse fields - handle nested braces
         fields = {}
-        field_pattern = r'(\w+)\s*=\s*\{([^}]*)\}'
+        field_pattern = r'(\w+)\s*=\s*\{'
         for field_match in re.finditer(field_pattern, fields_str):
             field_name = field_match.group(1).lower()
-            field_value = field_match.group(2).strip()
-            fields[field_name] = field_value
+            brace_start = field_match.end() - 1
+            brace_end = find_balanced_braces(fields_str, brace_start)
+            if brace_end != -1:
+                field_value = fields_str[brace_start+1:brace_end].strip()
+                # Remove BibTeX brace-protection (e.g. {POPPED} -> POPPED)
+                field_value = re.sub(r'\{([^}]*)\}', r'\1', field_value)
+                fields[field_name] = field_value
         
         entries_by_type[entry_type].append({
             'key': cite_key,
