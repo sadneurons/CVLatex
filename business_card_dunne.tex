@@ -1,0 +1,100 @@
+% !TEX program = xelatex
+% Business card for Dr Ross A. Dunne
+% Single card, 85x55 mm trim + 3 mm bleed = 91x61 mm.
+% Branded to match the CV (STIXGeneral, burgundy, warm off-white).
+% Compile twice with xelatex (remember picture needs two passes):
+%   xelatex business_card_dunne.tex
+%   xelatex business_card_dunne.tex
+
+\documentclass{article}
+
+% Card size including 3 mm bleed on every edge (trim = 85x55 mm)
+\usepackage[paperwidth=91mm,paperheight=61mm,margin=0mm]{geometry}
+\pagestyle{empty}
+
+\usepackage{fontspec}
+\setmainfont{STIXGeneral}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{fontawesome5}
+\usepackage{qrcode}
+\usepackage{xcolor}
+
+% Match the CV palette
+\definecolor{burgundy}{RGB}{128,0,32}
+\definecolor{cardbg}{RGB}{255,253,236}
+\definecolor{darktext}{RGB}{45,45,45}
+
+% Trim marks: set to true to print on larger stock and trim by hand.
+% Leave false when sending to a print shop that handles bleed/trim.
+\newif\ifcropmarks
+\cropmarksfalse
+
+\begin{document}
+\noindent
+\begin{tikzpicture}[remember picture, overlay, x=1mm, y=1mm]
+
+  % --- Background to full bleed ---
+  \fill[cardbg] (current page.south west) rectangle (current page.north east);
+
+  % --- Burgundy accent band on the left (bleeds to top/bottom/left edges) ---
+  \fill[burgundy]
+    (current page.north west) rectangle
+    ([xshift=6mm]current page.south west);
+
+  % --- Name ---
+  \node[anchor=north west, text=burgundy, font=\bfseries\large, inner sep=0pt]
+    at ([shift={(11mm,-9mm)}]current page.north west)
+    {Dr Ross A. Dunne};
+
+  % --- Titles ---
+  \node[anchor=north west, text=darktext, font=\footnotesize, inner sep=0pt]
+    at ([shift={(11mm,-14mm)}]current page.north west)
+    {Consultant in Old Age Psychiatry};
+  \node[anchor=north west, text=darktext, font=\footnotesize, inner sep=0pt]
+    at ([shift={(11mm,-18mm)}]current page.north west)
+    {Clinical Director, GM Dementia Research Centre};
+
+  % --- Burgundy rule ---
+  \draw[burgundy, line width=0.4pt]
+    ([shift={(11mm,-22.5mm)}]current page.north west) --
+    ([shift={(63mm,-22.5mm)}]current page.north west);
+
+  % --- Contact block ---
+  \node[anchor=north west, text=darktext, font=\scriptsize, inner sep=0pt,
+        align=left, line width=0pt]
+    at ([shift={(11mm,-25.5mm)}]current page.north west)
+    {%
+      {\color{burgundy}\faEnvelope}~~ross.dunne@gmmh.nhs.uk\\[2.5pt]
+      {\color{burgundy}\faGlobe}~~www.gmdrc.co.uk\\[2.5pt]
+      {\color{burgundy}\faOrcid}~~0000-0003-2046-6193\\[2.5pt]
+      {\color{burgundy}\faLinkedin}~~ross-dunne-gmdrc\\[2.5pt]
+      {\color{burgundy}\faGithub}~~sadneurons%
+    };
+
+  % --- Address (small, near bottom) ---
+  \node[anchor=south west, text=darktext, font=\tiny, inner sep=0pt]
+    at ([shift={(11mm,7mm)}]current page.south west)
+    {brainHealth Manchester \textbullet\ 70 Daisybank Road, Manchester M14 5QN};
+
+  % --- QR code to ORCID (bottom right) ---
+  \node[anchor=south east, inner sep=0pt]
+    at ([shift={(-7mm,7mm)}]current page.south east)
+    {\qrcode[height=15mm]{https://orcid.org/0000-0003-2046-6193}};
+  \node[anchor=north east, text=darktext, font=\tiny, inner sep=0pt]
+    at ([shift={(-7mm,5.5mm)}]current page.south east) {ORCID};
+
+  % --- Optional crop marks at the 3 mm trim line ---
+  \ifcropmarks
+    \def\cmlen{2mm}
+    \foreach \cx/\cy in {3/3, 88/3, 3/58, 88/58} {
+      \draw[gray, line width=0.2pt]
+        ([shift={(\cx mm,\cy mm)}]current page.south west) ++(-\cmlen,0) -- ++(\cmlen,0);
+      \draw[gray, line width=0.2pt]
+        ([shift={(\cx mm,\cy mm)}]current page.south west) ++(0,-\cmlen) -- ++(0,\cmlen);
+    }
+  \fi
+
+\end{tikzpicture}
+\end{document}
