@@ -45,14 +45,36 @@ def parse_bibfile(bibfile):
     
     return entries_by_type
 
+def format_authors(author_field):
+    """Convert a BibTeX author field ('A and B and C') into a readable list
+    ('A, B, and C'). Keeps full names; renders a trailing 'and others' as
+    'et al.'; bolds the Dunne surname."""
+    names = [n.strip() for n in re.split(r'\s+and\s+', author_field.strip()) if n.strip()]
+
+    et_al = False
+    if names and names[-1].lower() == 'others':
+        names = names[:-1]
+        et_al = True
+
+    if et_al:
+        joined = ', '.join(names) + ', et al.'
+    elif len(names) <= 1:
+        joined = names[0] if names else ''
+    elif len(names) == 2:
+        joined = f'{names[0]} and {names[1]}'
+    else:
+        joined = ', '.join(names[:-1]) + ', and ' + names[-1]
+
+    # Bold "Dunne"
+    return re.sub(r'\bDunne\b', r'**Dunne**', joined)
+
+
 def format_bibliography_entry(entry, number=None):
     """Format a single bibliography entry as markdown"""
     fields = entry['fields']
-    
+
     # Get author
-    author = fields.get('author', 'Unknown')
-    # Bold "Dunne" in author list
-    author = re.sub(r'\bDunne\b', r'**Dunne**', author)
+    author = format_authors(fields.get('author', 'Unknown'))
     
     # Get year
     year = fields.get('year', '')
