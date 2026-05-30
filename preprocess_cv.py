@@ -33,9 +33,14 @@ def parse_bibfile(bibfile):
             brace_end = find_balanced_braces(fields_str, brace_start)
             if brace_end != -1:
                 field_value = fields_str[brace_start+1:brace_end].strip()
-                # Remove BibTeX brace-protection (e.g. {POPPED} -> POPPED)
-                field_value = re.sub(r'\{([^}]*)\}', r'\1', field_value)
-                fields[field_name] = field_value
+                if field_name == 'author':
+                    # Keep brace-protection so corporate authors
+                    # (e.g. {AD-SMART team}) survive; format_authors strips
+                    # braces per-name.
+                    fields[field_name] = field_value
+                else:
+                    # Remove BibTeX brace-protection (e.g. {POPPED} -> POPPED)
+                    fields[field_name] = re.sub(r'\{([^}]*)\}', r'\1', field_value)
         
         entries_by_type[entry_type].append({
             'key': cite_key,
@@ -45,10 +50,41 @@ def parse_bibfile(bibfile):
     
     return entries_by_type
 
+def _vancouver_name(name):
+    """Format a single BibTeX name as Vancouver style: 'Surname II'
+    (surname, space, concatenated initials with no periods)."""
+    name = name.strip()
+    # Corporate / literal author wrapped in braces, e.g. {AD-SMART team}
+    if name.startswith('{') and name.endswith('}'):
+        return name[1:-1].strip()
+    name = name.replace('{', '').replace('}', '')
+
+    if ',' in name:
+        family, _, given = name.partition(',')
+    else:
+        # "Firstname Middle Surname" -> last token is the surname
+        tokens = name.split()
+        if len(tokens) <= 1:
+            family, given = name, ''
+        else:
+            family, given = tokens[-1], ' '.join(tokens[:-1])
+
+    family = family.strip()
+    given = given.strip()
+
+    # Initials: first letter of each given-name part (split on space and hyphen)
+    initials = ''.join(part[0].upper() for part in re.split(r'[\s\-]+', given) if part)
+
+    if family.lower() == 'dunne':
+        family = f'**{family}**'
+
+    return f'{family} {initials}'.strip()
+
+
 def format_authors(author_field):
-    """Convert a BibTeX author field ('A and B and C') into a readable list
-    ('A, B, and C'). Keeps full names; renders a trailing 'and others' as
-    'et al.'; bolds the Dunne surname."""
+    """Format a BibTeX author field as a Vancouver-style list:
+    'Surname II, Surname II, ...' with all authors listed. A trailing
+    'and others' becomes 'et al.'; the Dunne surname is bolded."""
     names = [n.strip() for n in re.split(r'\s+and\s+', author_field.strip()) if n.strip()]
 
     et_al = False
@@ -56,17 +92,11 @@ def format_authors(author_field):
         names = names[:-1]
         et_al = True
 
+    formatted = [_vancouver_name(n) for n in names]
+    joined = ', '.join(formatted)
     if et_al:
-        joined = ', '.join(names) + ', et al.'
-    elif len(names) <= 1:
-        joined = names[0] if names else ''
-    elif len(names) == 2:
-        joined = f'{names[0]} and {names[1]}'
-    else:
-        joined = ', '.join(names[:-1]) + ', and ' + names[-1]
-
-    # Bold "Dunne"
-    return re.sub(r'\bDunne\b', r'**Dunne**', joined)
+        joined += ', et al.'
+    return joined
 
 
 def format_bibliography_entry(entry, number=None):
