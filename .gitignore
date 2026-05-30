@@ -66,6 +66,9 @@ Thumbs.db
 .vscode/*
 !.vscode/settings.json
 
+# Claude Code local config
+.claude/
+
 # Backup files
 *.bak
 *~
