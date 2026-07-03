@@ -17,10 +17,10 @@ This repository contains the LaTeX source for my academic CV, automatically comp
 
 ### Build Commands
 ```bash
-xelatex cv_dunne_june_2026.tex
-biber cv_dunne_june_2026
-xelatex cv_dunne_june_2026.tex
-xelatex cv_dunne_june_2026.tex
+xelatex cv_dunne_july_2026.tex
+biber cv_dunne_july_2026
+xelatex cv_dunne_july_2026.tex
+xelatex cv_dunne_july_2026.tex
 ```
 
 Or simply save the file in VS Code with LaTeX Workshop extension installed.
@@ -36,8 +36,8 @@ Every push to `main` triggers a GitHub Actions workflow that:
 
 ## 📝 Structure
 
-- `cv_dunne_june_2026.tex` - Full CV file
-- `cv_dunne_june_2026_2page.tex` - Condensed 2-page CV
+- `cv_dunne_july_2026.tex` - Full CV file
+- `cv_dunne_july_2026_2page.tex` - Condensed 2-page CV
 - `my_publications.bib` - Publications bibliography
 - `my_posters_abstracts.bib` - Conference presentations
 - `bwphoto.png` - Profile photo
